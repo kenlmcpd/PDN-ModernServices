@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net.Http.Formatting;
+using System.Net.Security;
+using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using System.Web.Http.Dispatcher;
 using System.Web.Http.ExceptionHandling;
 using System.Web.Http.Tracing;
+using System.Web.Mvc;
 using Microsoft.Owin.Extensions;
 using Owin;
 using Swashbuckle.Application;
@@ -47,8 +51,8 @@ namespace ModernDataServices.App.Config
             app.UseStageMarker(PipelineStage.MapHandler);
 
             config.CacheOutputConfiguration().RegisterCacheOutputProvider(() => new LoggingCacheOutputProviderDecorator(new MemoryCacheDefault()));
-
+            
             app.UseWebApi(config);
         }
     }
-}
+ }
