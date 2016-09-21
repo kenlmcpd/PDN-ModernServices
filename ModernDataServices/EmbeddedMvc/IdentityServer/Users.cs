@@ -16,7 +16,8 @@ namespace EmbeddedMvc.IdentityServer
                     Username = "bob",
                     Password = "secret",
                     Subject = "1",
-
+                    Enabled = true,
+                    
                     Claims = new[]
                     {
                         new Claim(Constants.ClaimTypes.GivenName, "Bob"),

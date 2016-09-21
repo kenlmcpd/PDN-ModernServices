@@ -17,11 +17,11 @@ namespace EmbeddedMvc.IdentityServer
 
                     RedirectUris = new List<string>
                     {
-                        "https://localhost:44319/"
+                        "https://localhost:44302/"
                     },
                     PostLogoutRedirectUris = new List<string>
                     {
-                        "https://localhost:44319/"
+                        "https://localhost:44302/"
                     },
                     AllowedScopes = new List<string>
                     {
@@ -45,7 +45,22 @@ namespace EmbeddedMvc.IdentityServer
                     {
                         "sampleApi"
                     }
-                }
+                },
+                new Client()
+                {
+                    Enabled = true,
+                    ClientName =  "OwinService",
+                    ClientId = "OwinService",
+                    Flow = Flows.ResourceOwner,
+                    RequireConsent = false,
+                    AccessTokenType = AccessTokenType.Jwt,
+                    ClientSecrets = new List<Secret>
+                    {
+                        new Secret("somesecret".Sha256())
+                    },
+                    AllowAccessToAllCustomGrantTypes = true,
+                    AllowAccessToAllScopes = true,
+                },
             };
         }
     }
