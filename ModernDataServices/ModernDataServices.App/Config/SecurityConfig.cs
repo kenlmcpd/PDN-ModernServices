@@ -60,6 +60,8 @@ namespace ModernDataServices.App.Config
             public override Task ValidateIdentity(OAuthValidateIdentityContext context)
             {
                 // Get Claims to find out if user actually is permitted to actual api
+                // Then you can add an attribute over the api method to define what role
+                // the user needs to that funtionality
                 var claims = context.Ticket.Identity.Claims;
 
                 

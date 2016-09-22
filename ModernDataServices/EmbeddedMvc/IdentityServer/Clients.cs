@@ -61,6 +61,22 @@ namespace EmbeddedMvc.IdentityServer
                     AllowAccessToAllCustomGrantTypes = true,
                     AllowAccessToAllScopes = true,
                 },
+                new Client()
+                {
+                    Enabled = true,
+                    ClientName =  "Mvc Api",
+                    ClientId = "MvcApi",
+                    Flow = Flows.ResourceOwner,
+                    RequireConsent = false,
+                    AccessTokenType = AccessTokenType.Jwt,
+                    ClientSecrets = new List<Secret>
+                    {
+                        new Secret("somesecret".Sha256())
+                    },
+                    AllowAccessToAllCustomGrantTypes = true,
+                    AllowAccessToAllScopes = true,
+                },
+                
             };
         }
     }

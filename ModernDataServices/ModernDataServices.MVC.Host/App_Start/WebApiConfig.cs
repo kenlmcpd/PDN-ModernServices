@@ -16,7 +16,7 @@ namespace ModernDataServices.MVC.Host
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "api/v1.0/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }

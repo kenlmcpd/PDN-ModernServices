@@ -24,7 +24,7 @@ namespace ModernDataServices.App.Controllers
             return "value";
         }
 
-        //[ResourceAuthorize("Roles or Users")]
+        //[ResourceAuthorize("Roles or Users")] // see public override Task ValidateIdentity(OAuthValidateIdentityContext context)
         [HttpGet, Route(Constants.Routes.GetSecureValuesRoute, Name = Constants.RouteNames.GetSecureValues)]
         public IEnumerable<string> GetSecureValues()
         {

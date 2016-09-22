@@ -26,7 +26,6 @@ namespace EmbeddedMvc
     {
         public void Configuration(IAppBuilder app)
         {
-            // todo: replace with serilog
             //LogProvider.SetCurrentLogProvider(new DiagnosticsTraceLogProvider());
 
             AntiForgeryConfig.UniqueClaimTypeIdentifier = Constants.ClaimTypes.Subject;
