@@ -41,8 +41,10 @@ namespace ModernDataServices.MVC.Host
 
             // FUN Stuff
             app.UseMetrics();
-            app.UseOwinHangfire();
+
+            // Uncomment After Database is created
+            //app.UseOwinHangfire();
             
          }
-        }
+    }
 }

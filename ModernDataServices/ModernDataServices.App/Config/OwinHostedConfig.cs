@@ -41,15 +41,22 @@ namespace ModernDataServices.App.Config
 
             app.UseHttpConfig();
 
-            app.UseFileServer(new FileServerOptions
-            {
-                FileSystem = new PhysicalFileSystem(_development ? "../../content" : "content"),
-                RequestPath = new PathString("")
-            });
-            app.UseWelcomePage("/content");
+            // Generic Home Page
+            app.UseWelcomePage("/");
+
+            // Non-Generic Home Page
+            //app.UseFileServer(new FileServerOptions
+            //{
+            //    FileSystem = new PhysicalFileSystem(_development ? "../../content" : "content"),
+            //    RequestPath = new PathString("")
+            //});
+
+            //app.UseWelcomePage("/content");
 
             app.UseMetrics();
-            app.UseOwinHangfire();
+
+            // Uncomment after you create the database
+            //app.UseOwinHangfire();
         }
     }
 }

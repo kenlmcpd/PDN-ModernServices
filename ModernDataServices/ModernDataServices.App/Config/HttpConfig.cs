@@ -32,8 +32,7 @@ namespace ModernDataServices.App.Config
 
             config.MapHttpAttributeRoutes();
             config.MessageHandlers.Add(new RequireHttpsHandler());
-            config.Services.Replace(typeof(IHttpControllerActivator), new ServiceActivator(config));
-
+            
             config.Formatters.JsonFormatter.SerializerSettings.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter());
             config.Formatters.JsonFormatter.AddUriPathExtensionMapping("json", "application/json");
             config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
@@ -50,18 +49,19 @@ namespace ModernDataServices.App.Config
                 c.DescribeAllEnumsAsStrings();
                 c.SingleApiVersion(Constants.AppInfo.ApiVersion, Constants.AppInfo.AppName);
 
-                //var authorityUri = new Uri(System.Configuration.ConfigurationManager.AppSettings["Authority"]);
+                var authorityUri = new Uri(System.Configuration.ConfigurationManager.AppSettings["Authority"]);
 
-                //c.OAuth2("oauth")
-                //    .AuthorizationUrl(authorityUri.ToString())
-                //    .TokenUrl(new Uri(authorityUri, "connect/token").ToString())
-                //    .Flow("resource_manager");
+                c.OAuth2("oauth")
+                    .AuthorizationUrl(authorityUri.ToString())
+                    .TokenUrl(new Uri(authorityUri, "connect/token").ToString())
+                    .Flow("resource_manager");
             })
                 .EnableSwaggerUi();
             
             app.UseStageMarker(PipelineStage.MapHandler);
 
-            config.CacheOutputConfiguration().RegisterCacheOutputProvider(() => new LoggingCacheOutputProviderDecorator(new MemoryCacheDefault()));
+            config.CacheOutputConfiguration().RegisterCacheOutputProvider(() => new MemoryCacheDefault());
+            //config.CacheOutputConfiguration().RegisterCacheOutputProvider(() => new LoggingCacheOutputProviderDecorator(new MemoryCacheDefault()));
 
             app.UseWebApi(config);
         }

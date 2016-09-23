@@ -4,17 +4,21 @@ using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Metrics.Logging;
 using Microsoft.Owin.Hosting;
 using ModernDataServices.App.Config;
-using NLog.Fluent;
-
+using NLog;
 
 
 namespace ModernDataServices.Service.Host
 {
     public class ServiceApiApp
     {
+        /// <summary>
+        /// The logger
+        /// </summary>
+        private readonly NLog.Logger _logger = LogManager.GetCurrentClassLogger();
+
         /// <summary>
         /// The owin web application
         /// </summary>
@@ -25,18 +29,9 @@ namespace ModernDataServices.Service.Host
         /// </summary>
         public virtual void Start()
         {
-            try
-            {
-                WebApplication = WebApp.Start<OwinHostedConfig>(ConfigurationManager.AppSettings["OwinUrl"]);
-            }
-            catch (Exception ex)
-            {
-                var error = ex;
-                // If error = Access Denied
-                //http://stackoverflow.com/questions/4019466/httplistener-access=denied
-                //  netsh http add urlacl url="https://+:44319/" user=everyone
-                throw;
-            }
+            _logger.Info("Starting ModernDataServices.Service");
+            WebApplication = WebApp.Start<OwinHostedConfig>(ConfigurationManager.AppSettings["OwinUrl"]);
+            _logger.Info("ModernDataServices.Service Started");
         }
 
         /// <summary>
@@ -45,6 +40,7 @@ namespace ModernDataServices.Service.Host
         public virtual void Stop()
         {
             WebApplication.Dispose();
+            _logger.Info("ModernDataServices.Service Stopped");
         }
 
         /// <summary>
@@ -52,7 +48,7 @@ namespace ModernDataServices.Service.Host
         /// </summary>
         public virtual void Pause()
         {
-            
+            _logger.Info("ModernDataServices.Service Paused");
         }
 
         /// <summary>
@@ -60,7 +56,7 @@ namespace ModernDataServices.Service.Host
         /// </summary>
         public virtual void Continue()
         {
-
+            _logger.Info("ModernDataServices.Service Now Running");
         }
 
         /// <summary>
@@ -68,7 +64,7 @@ namespace ModernDataServices.Service.Host
         /// </summary>
         public virtual void Shutdown()
         {
-
+            _logger.Info("ModernDataServices.ServiceShutdown Completed.");
         }
     }
 }

@@ -9,10 +9,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ModernDataServices.App</RootNamespace>
     <AssemblyName>ModernDataServices.App</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -273,12 +274,10 @@
     <Compile Include="Config\HangfireConfig.cs" />
     <Compile Include="Config\HttpConfig.cs" />
     <Compile Include="Config\IocConfig.cs" />
-    <Compile Include="Config\LoggingCacheOutputProviderDecorator.cs" />
     <Compile Include="Config\MetricsConfig.cs" />
     <Compile Include="Config\OwinHostedConfig.cs" />
     <Compile Include="Config\ResourceAuthorization.cs" />
     <Compile Include="Config\SecurityConfig.cs" />
-    <Compile Include="Config\ServiceActivator.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Controllers\AppInfoController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />

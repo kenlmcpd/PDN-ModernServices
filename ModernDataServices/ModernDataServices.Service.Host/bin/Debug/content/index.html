@@ -1,105 +1,95 @@
-﻿<!doctype html>
-<html lang="en">
+﻿
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Modern Data Services</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="shortcut icon">
-
-    <!-- Custom fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,100" rel="stylesheet">
-    <link href="css/social-font.css" rel="stylesheet">
-
-    <!-- Bootstrap stylesheets -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template stylesheets -->
-    <link href="css/shader.css" rel="stylesheet">
-
-    <!-- Demo stylesheets -->
-    <link href="css/demo.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" />
 </head>
+<body id="top">
 
-<body class="theme-ice">
-    <!-- Background container -->
-    <div id="background-container" class="background-container">
-        <div id="background-output" class="background-output"></div>
-        <div id="vignette" class="background-vignette"></div>
-        <div id="noise" class="background-noise"></div>
+<div class="body-content">
+
+    <div class="row">
+        <h1 class="header col-sm-8 col-sm-offset-2 blueShadowText">Modern Data Services Server</h1>
     </div>
-    <!-- /Background container -->
-    <!-- Main content -->
-    <div class="content">
-        <div class="container">
-            <!-- Header -->
-            <div class="row">
-                <h1 class="header col-sm-8 col-sm-offset-2">Modern Data Services Server</h1>
+
+    <div class="row">
+        <p class="description col-sm-8 col-sm-offset-2">Philly.NET Code Camp 2016.2<br/> <span id="buildVersion"></span></p>
+    </div>
+    <div class="container top-margin">
+        <div class="row top-margin">
+            <div class="col-md-3">
+                <a href="/metrics">
+                    <section class="special box">
+                        <i class="icon fa fa-line-chart major"></i>
+                        <h3>Metrics</h3>
+
+                    </section>
+                </a>
             </div>
-            <!-- /Header -->
-            <!-- Description -->
-            <div class="row">
-                <p class="description col-sm-8 col-sm-offset-2">Philly.NET Code Camp 2016.1<br /> <span id="buildVersion"></span></p>
+            <div class="col-md-3">
+                <a href="/swagger">
+                    <section class="special box">
+                        <i class="icon fa fa-database major"></i>
+                        <h3>Swagger</h3>
+                    </section>
+                </a>
+
             </div>
-            <!-- /Description -->
-        </div>
-
-        <!-- Countdown -->
-        <div class="countdown" id="countdown">
-            <div class="container">
-                <div class="row">
-                    <div class="countdown-item col-sm-3 col-xs-6">
-                        <div class="countdown-number" id="countdown-days"></div>
-                        <div class="countdown-label">days</div>
-                    </div>
-
-                    <div class="countdown-item col-sm-3 col-xs-6">
-                        <div class="countdown-number" id="countdown-hours"></div>
-                        <div class="countdown-label">hours</div>
-                    </div>
-
-                    <div class="countdown-item col-sm-3 col-xs-6">
-                        <div class="countdown-number" id="countdown-minutes"></div>
-                        <div class="countdown-label">minutes</div>
-                    </div>
-
-                    <div class="countdown-item col-sm-3 col-xs-6">
-                        <div class="countdown-number" id="countdown-seconds"></div>
-                        <div class="countdown-label">seconds</div>
-                    </div>
-                </div>
+            <div class="col-md-3">
+                <a href="/jobs">
+                    <section class="special box">
+                        <i class="icon fa fa-calendar-check-o major"></i>
+                        <h3>Job Server</h3>
+                    </section>
+                </a>
             </div>
-        </div>
-        <!-- /Countdown -->
-
-        <div class="container">
-            <div class="row">
-                <div class="form-and-links-container col-sm-8 col-sm-offset-2">
-                    <!-- Subscription form -->
-                    <!-- /Subscription form -->
-                    <!-- Social links -->
-                    <div class="social-links">
-                        <a href="/metrics" class="icon-formspring"></a>
-                        <a href="/jobs" class="icon-ember"></a>
-                        <a href="/help" class="icon-livejournal"></a>
-                    </div>
-                    <!-- /Social links -->
-                </div>
+            <div class="col-md-3">
+                <a href="/help">
+                    <section class="special box">
+                        <i class="icon fa fa-file-text-o major"></i>
+                        <h3>Code Docs</h3>
+                    </section>
+                </a>
             </div>
         </div>
     </div>
-    <!-- /Main content -->
-    <!-- Scripts -->
+
+
+    <div class="countdown" id="countdown">
+        <div class="container">
+            <div class="row">
+                <div class="countdown-item col-sm-3 col-xs-6">
+                    <div class="countdown-number" id="countdown-days"></div>
+                    <div class="countdown-label">days</div>
+                </div>
+
+                <div class="countdown-item col-sm-3 col-xs-6">
+                    <div class="countdown-number" id="countdown-hours"></div>
+                    <div class="countdown-label">hours</div>
+                </div>
+
+                <div class="countdown-item col-sm-3 col-xs-6">
+                    <div class="countdown-number" id="countdown-minutes"></div>
+                    <div class="countdown-label">minutes</div>
+                </div>
+
+                <div class="countdown-item col-sm-3 col-xs-6">
+                    <div class="countdown-number" id="countdown-seconds"></div>
+                    <div class="countdown-label">seconds</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/jquery.countdown.js"></script>
-    <script src="js/placeholders.min.js"></script>
-    <script src="js/flat-surface-shader.js"></script>
-    <script src="js/main.config.js"></script>
-    <script src="js/shader.js"></script>
-    <script src="js/demo.js"></script>
+
     <script type="text/javascript">
         $(document).ready(function () {
             var apiUrl = window.location.href + 'api/v1.0/app/';
@@ -156,3 +146,10 @@
     </script>
 </body>
 </html>
+
+
+
+
+
+
+

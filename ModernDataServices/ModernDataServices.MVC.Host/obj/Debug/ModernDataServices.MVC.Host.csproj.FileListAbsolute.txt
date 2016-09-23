@@ -52,8 +52,6 @@ D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Hangfire.Dashboard.Authorization.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\StructureMap.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Swashbuckle.Core.dll
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\WebApi.OutputCache.Core.dll
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Owin.Metrics.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\BrockAllen.MembershipReboot.Owin.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Thinktecture.IdentityModel.Owin.ResourceAuthorization.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.Security.OAuth.dll
@@ -61,7 +59,6 @@ D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\System.Web.Http.Cors.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Thinktecture.IdentityModel.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.dll
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\WebApi.OutputCache.V2.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\System.Web.Http.Owin.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.Security.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\BrockAllen.MembershipReboot.dll
@@ -71,8 +68,6 @@ D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\NLog.xml
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Hangfire.Core.xml
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Hangfire.Dashboard.Authorization.xml
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Owin.Metrics.pdb
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Owin.Metrics.xml
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\BrockAllen.MembershipReboot.Owin.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Thinktecture.IdentityModel.Owin.ResourceAuthorization.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.Security.OAuth.xml
@@ -97,10 +92,6 @@ D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\IdentityModel.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.Diagnostics.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.Diagnostics.xml
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.StaticFiles.dll
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.FileSystems.dll
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.StaticFiles.xml
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.FileSystems.xml
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Metrics.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Metrics.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Metrics.xml
@@ -123,3 +114,12 @@ D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\StructureMap.Web.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\StructureMap.Web.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\StructureMap.Web.xml
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\WebApi.OutputCache.Core.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\WebApi.OutputCache.V2.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Owin.Metrics.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Owin.Metrics.pdb
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Owin.Metrics.xml
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.StaticFiles.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.FileSystems.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.StaticFiles.xml
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.FileSystems.xml

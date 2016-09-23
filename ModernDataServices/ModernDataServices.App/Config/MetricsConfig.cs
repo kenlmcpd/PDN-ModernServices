@@ -13,12 +13,13 @@ namespace ModernDataServices.App.Config
         public static void UseMetrics(this IAppBuilder app)
         {
             Metric.Config
-                .WithAppCounters("ModernDataServices.App")
+                .WithAppCounters("Application")
                 .WithInternalMetrics()
                 .WithOwin(middleware => app.Use(middleware), config => config
                     .WithRequestMetricsConfig(c => c.WithAllOwinMetrics())
                     .WithMetricsEndpoint()
                 );
+
         }
     }
 }
