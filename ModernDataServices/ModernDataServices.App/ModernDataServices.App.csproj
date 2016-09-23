@@ -279,9 +279,23 @@
     <Compile Include="Config\ResourceAuthorization.cs" />
     <Compile Include="Config\SecurityConfig.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="Controllers\AddressController.cs" />
     <Compile Include="Controllers\AppInfoController.cs" />
+    <Compile Include="Controllers\EmailController.cs" />
+    <Compile Include="Controllers\PersonController.cs" />
+    <Compile Include="Controllers\PhoneController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Data\ApplicationContext.cs" />
+    <Compile Include="Data\Migrations\201609231354523_InitialCreate.cs" />
+    <Compile Include="Data\Migrations\201609231354523_InitialCreate.Designer.cs">
+      <DependentUpon>201609231354523_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Migrations\Configuration.cs" />
     <Compile Include="MethodTimeLogger.cs" />
+    <Compile Include="Models\Data\Address.cs" />
+    <Compile Include="Models\Data\Email.cs" />
+    <Compile Include="Models\Data\Person.cs" />
+    <Compile Include="Models\Data\Phone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -292,6 +306,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\Migrations\201609231354523_InitialCreate.resx">
+      <DependentUpon>201609231354523_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\dotnet\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\dotnet\Fody.targets')" />

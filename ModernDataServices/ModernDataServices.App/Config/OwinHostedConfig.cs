@@ -42,16 +42,16 @@ namespace ModernDataServices.App.Config
             app.UseHttpConfig();
 
             // Generic Home Page
-            app.UseWelcomePage("/");
+            //app.UseWelcomePage("/");
 
-            // Non-Generic Home Page
-            //app.UseFileServer(new FileServerOptions
-            //{
-            //    FileSystem = new PhysicalFileSystem(_development ? "../../content" : "content"),
-            //    RequestPath = new PathString("")
-            //});
+            //Non - Generic Home Page
+            app.UseFileServer(new FileServerOptions
+            {
+                FileSystem = new PhysicalFileSystem(_development ? "../../content" : "content"),
+                RequestPath = new PathString("")
+            });
 
-            //app.UseWelcomePage("/content");
+            app.UseWelcomePage("/content");
 
             app.UseMetrics();
 
