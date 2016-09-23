@@ -119,3 +119,9 @@ D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Owin.Metrics.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Owin.Metrics.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Owin.Metrics.xml
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\EntityFramework.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\EntityFramework.xml
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.StaticFiles.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.FileSystems.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.StaticFiles.xml
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.MVC.Host\bin\Microsoft.Owin.FileSystems.xml

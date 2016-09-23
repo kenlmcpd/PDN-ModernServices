@@ -38,6 +38,27 @@
             public const string ApiRoutePrefix = "api/" + AppInfo.ApiVersion;
 
             /// <summary>
+            /// The person prefix
+            /// </summary>
+            public const string PersonPrefix = ApiRoutePrefix + "/person";
+
+            /// <summary>
+            /// The address prefix
+            /// </summary>
+            public const string AddressPrefix = ApiRoutePrefix + "/address";
+
+            /// <summary>
+            /// The phone prefix
+            /// </summary>
+            public const string PhonePrefix = ApiRoutePrefix + "/phone";
+
+            /// <summary>
+            /// The email prefix
+            /// </summary>
+            public const string EmailPrefix = ApiRoutePrefix + "/email";
+
+
+            /// <summary>
             /// The version route
             /// </summary>
             public const string VersionRoute = "app/version";
@@ -105,7 +126,11 @@
             /// </summary>
             public const string GetValueById = "Get Value By Id";
 
+            public const string GetEmailCollection = "Get Emails";
 
+            public const string GetEmailById = "Get Email By Id";
+
+            public const string CreateEmail = "Create Email";
         }
 
 

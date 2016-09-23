@@ -296,6 +296,11 @@
     <Compile Include="Models\Data\Email.cs" />
     <Compile Include="Models\Data\Person.cs" />
     <Compile Include="Models\Data\Phone.cs" />
+    <Compile Include="Models\Resources\AddressResource.cs" />
+    <Compile Include="Models\Resources\EmailResource.cs" />
+    <Compile Include="Models\Resources\Link.cs" />
+    <Compile Include="Models\Resources\PersonResource.cs" />
+    <Compile Include="Models\Resources\PhoneResource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -307,9 +312,7 @@
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Data\Migrations\201609231354523_InitialCreate.resx">
       <DependentUpon>201609231354523_InitialCreate.cs</DependentUpon>
