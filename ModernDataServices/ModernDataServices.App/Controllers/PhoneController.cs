@@ -7,10 +7,11 @@ using System.Web.Http;
 using MethodTimer;
 using ModernDataServices.App.Models.Resources;
 using NLog;
+using Thinktecture.IdentityModel.WebApi;
 
 namespace ModernDataServices.App.Controllers
 {
-    [Authorize]
+    [ResourceAuthorize("Geek Foo")]
     [Time]
     [System.Web.Http.RoutePrefix(Constants.Routes.PhonePrefix)]
     public class PhoneController : ApiController
@@ -18,8 +19,8 @@ namespace ModernDataServices.App.Controllers
         protected Logger Logger = LogManager.GetCurrentClassLogger();
 
 
-        
-        public IHttpActionResult Get()
+        [HttpGet, Route("", Name = Constants.RouteNames.GetPhoneCollection)]
+        public IHttpActionResult Get([FromUri] int personid)
         {
             try
             {
@@ -48,8 +49,8 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
-        
-        public IHttpActionResult Get(int id)
+        [HttpGet, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.GetPhoneById)]
+        public IHttpActionResult Get([FromUri] int personid, [FromUri] int id)
         {
             try
             {
@@ -80,8 +81,8 @@ namespace ModernDataServices.App.Controllers
 
         //[ResourceAuthorize("Roles or Users")] // see public override Task ValidateIdentity(OAuthValidateIdentityContext context)
 
-
-        public IHttpActionResult Post([FromBody]PhoneResource phone)
+        [HttpPost, Route("", Name = Constants.RouteNames.CreatePhone)]
+        public IHttpActionResult Post([FromUri] int personid, [FromBody]PhoneResource phone)
         {
             try
             {
@@ -110,7 +111,8 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
-        public IHttpActionResult Put(int id, [FromBody]PhoneResource phone)
+        [HttpPut, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.EditPhone)]
+        public IHttpActionResult Put([FromUri] int personid, int id, [FromBody]PhoneResource phone)
         {
             try
             {
@@ -139,7 +141,8 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
-        public IHttpActionResult Delete(int id)
+        [HttpPost, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.DeletePhone)]
+        public IHttpActionResult Delete([FromUri] int personid, int id)
         {
             try
             {

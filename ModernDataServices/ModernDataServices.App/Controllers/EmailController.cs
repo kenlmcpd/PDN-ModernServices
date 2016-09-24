@@ -20,7 +20,7 @@ namespace ModernDataServices.App.Controllers
 
         
         [HttpGet, Route("", Name = Constants.RouteNames.GetEmailCollection)]
-        public IHttpActionResult Get([FromUri] int userId)
+        public IHttpActionResult Get([FromUri] int personid)
         {
             try
             {
@@ -50,7 +50,7 @@ namespace ModernDataServices.App.Controllers
         }
 
         [HttpGet, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.GetEmailById)]
-        public IHttpActionResult Get([FromUri] int userId, [FromUri] int id)
+        public IHttpActionResult Get([FromUri] int personid, [FromUri] int id)
         {
             try
             {
@@ -82,7 +82,7 @@ namespace ModernDataServices.App.Controllers
         //[ResourceAuthorize("Roles or Users")] // see public override Task ValidateIdentity(OAuthValidateIdentityContext context)
 
         [HttpPost, Route("", Name = Constants.RouteNames.CreateEmail)]
-        public IHttpActionResult Post([FromBody]EmailResource email)
+        public IHttpActionResult Post([FromUri] int personid, [FromBody]EmailResource email)
         {
             try
             {
@@ -111,7 +111,8 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
-        public IHttpActionResult Put(int id, [FromBody]EmailResource email)
+        [HttpPut, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.EditEmail)]
+        public IHttpActionResult Put([FromUri] int personid, int id, [FromBody]EmailResource email)
         {
             try
             {
@@ -140,7 +141,8 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
-        public IHttpActionResult Delete(int id)
+        [HttpPost, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.DeleteEmail)]
+        public IHttpActionResult Delete([FromUri] int personid, int id)
         {
             try
             {

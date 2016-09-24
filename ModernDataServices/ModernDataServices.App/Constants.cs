@@ -45,17 +45,17 @@
             /// <summary>
             /// The address prefix
             /// </summary>
-            public const string AddressPrefix = ApiRoutePrefix + "/address";
+            public const string AddressPrefix = ApiRoutePrefix + "/person/{personid:int}/address";
 
             /// <summary>
             /// The phone prefix
             /// </summary>
-            public const string PhonePrefix = ApiRoutePrefix + "/phone";
+            public const string PhonePrefix = ApiRoutePrefix + "/person/{personid:int}/phone";
 
             /// <summary>
             /// The email prefix
             /// </summary>
-            public const string EmailPrefix = ApiRoutePrefix + "/email";
+            public const string EmailPrefix = ApiRoutePrefix + "/person/{personid:int}/email";
 
 
             /// <summary>
@@ -92,7 +92,6 @@
             /// The get value by identifier route
             /// </summary>
             public const string GetValueByIdRoute = "values/{id:int}";
-
 
         }
 
@@ -131,6 +130,38 @@
             public const string GetEmailById = "Get Email By Id";
 
             public const string CreateEmail = "Create Email";
+
+            public const string EditEmail = "Edit Email";
+            
+            public const string DeleteEmail = "Delete Email";
+
+            public const string GetPhoneCollection = "Get Phones";
+
+            public const string GetPhoneById = "Get Phone By Id";
+
+            public const string CreatePhone = "Create Phone";
+
+            public const string EditPhone = "Edit Phone";
+
+            public const string DeletePhone = "Delete Phone";
+
+            public const string GetAddressCollection = "Get Addresss";
+
+            public const string GetAddressById = "Get Address By Id";
+
+            public const string CreateAddress = "Create Address";
+
+            public const string EditAddress = "Edit Address";
+
+            public const string DeleteAddress = "Delete Address";
+
+            public const string GetPersonById = "Get Person By Id";
+
+            public const string CreatePerson = "Create Person";
+
+            public const string EditPerson = "Edit Person";
+
+            public const string DeletePerson = "Delete Person";
         }
 
 
