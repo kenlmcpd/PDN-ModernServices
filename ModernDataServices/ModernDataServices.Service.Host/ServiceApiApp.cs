@@ -29,9 +29,17 @@ namespace ModernDataServices.Service.Host
         /// </summary>
         public virtual void Start()
         {
-            _logger.Info("Starting ModernDataServices.Service");
-            WebApplication = WebApp.Start<OwinHostedConfig>(ConfigurationManager.AppSettings["OwinUrl"]);
-            _logger.Info("ModernDataServices.Service Started");
+            try
+            {
+                _logger.Info("Starting ModernDataServices.Service");
+                WebApplication = WebApp.Start<OwinHostedConfig>(ConfigurationManager.AppSettings["OwinUrl"]);
+                _logger.Info("ModernDataServices.Service Started");
+            }
+            catch (Exception ex)
+            {
+                var whatthehell = ex;
+                throw;
+            }
         }
 
         /// <summary>

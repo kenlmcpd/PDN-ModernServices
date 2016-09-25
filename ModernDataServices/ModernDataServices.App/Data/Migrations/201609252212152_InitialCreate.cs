@@ -17,22 +17,22 @@ namespace ModernDataServices.App.Data.Migrations
                         City = c.String(),
                         State = c.String(),
                         ZipCode = c.String(),
-                        Person_Id = c.Int(),
+                        Person_PersonId = c.Guid(),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.People", t => t.Person_Id)
-                .Index(t => t.Person_Id);
+                .ForeignKey("dbo.People", t => t.Person_PersonId)
+                .Index(t => t.Person_PersonId);
             
             CreateTable(
                 "dbo.People",
                 c => new
                     {
-                        Id = c.Int(nullable: false, identity: true),
+                        PersonId = c.Guid(nullable: false),
                         FirstName = c.String(),
                         LastName = c.String(),
                         BirthDate = c.DateTime(nullable: false),
                     })
-                .PrimaryKey(t => t.Id);
+                .PrimaryKey(t => t.PersonId);
             
             CreateTable(
                 "dbo.Emails",
@@ -40,11 +40,11 @@ namespace ModernDataServices.App.Data.Migrations
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Address = c.String(),
-                        Person_Id = c.Int(),
+                        Person_PersonId = c.Guid(),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.People", t => t.Person_Id)
-                .Index(t => t.Person_Id);
+                .ForeignKey("dbo.People", t => t.Person_PersonId)
+                .Index(t => t.Person_PersonId);
             
             CreateTable(
                 "dbo.Phones",
@@ -54,22 +54,37 @@ namespace ModernDataServices.App.Data.Migrations
                         AreaCode = c.String(),
                         Number = c.String(),
                         Extension = c.String(),
-                        Person_Id = c.Int(),
+                        Person_PersonId = c.Guid(),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.People", t => t.Person_Id)
-                .Index(t => t.Person_Id);
+                .ForeignKey("dbo.People", t => t.Person_PersonId)
+                .Index(t => t.Person_PersonId);
+            
+            CreateTable(
+                "dbo.LogTables",
+                c => new
+                    {
+                        Id = c.Long(nullable: false, identity: true),
+                        ApplicationName = c.String(),
+                        Time_Stamp = c.DateTime(nullable: false),
+                        Level = c.String(),
+                        Logger = c.String(),
+                        Message = c.String(),
+                        Verbose = c.String(),
+                    })
+                .PrimaryKey(t => t.Id);
             
         }
         
         public override void Down()
         {
-            DropForeignKey("dbo.Phones", "Person_Id", "dbo.People");
-            DropForeignKey("dbo.Emails", "Person_Id", "dbo.People");
-            DropForeignKey("dbo.Addresses", "Person_Id", "dbo.People");
-            DropIndex("dbo.Phones", new[] { "Person_Id" });
-            DropIndex("dbo.Emails", new[] { "Person_Id" });
-            DropIndex("dbo.Addresses", new[] { "Person_Id" });
+            DropForeignKey("dbo.Phones", "Person_PersonId", "dbo.People");
+            DropForeignKey("dbo.Emails", "Person_PersonId", "dbo.People");
+            DropForeignKey("dbo.Addresses", "Person_PersonId", "dbo.People");
+            DropIndex("dbo.Phones", new[] { "Person_PersonId" });
+            DropIndex("dbo.Emails", new[] { "Person_PersonId" });
+            DropIndex("dbo.Addresses", new[] { "Person_PersonId" });
+            DropTable("dbo.LogTables");
             DropTable("dbo.Phones");
             DropTable("dbo.Emails");
             DropTable("dbo.People");

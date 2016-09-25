@@ -15,9 +15,12 @@ namespace ModernDataServices.App.Data
             
         }
 
-        DbSet<Person> Persons { get; set; }
-        DbSet<Address> Addresses { get; set; }
-        DbSet<Phone> Phones { get; set; }
-        DbSet<Email> Emails { get; set; }
+        public DbSet<Person> Persons { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<Phone> Phones { get; set; }
+        public DbSet<Email> Emails { get; set; }
+
+        //NLog
+        public DbSet<LogTable> LogTable { get; set; }
     }
 }

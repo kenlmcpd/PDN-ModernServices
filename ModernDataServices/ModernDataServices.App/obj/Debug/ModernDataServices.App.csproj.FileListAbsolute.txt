@@ -1,9 +1,6 @@
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\ModernDataServices.App.dll.config
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\ModernDataServices.App.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\ModernDataServices.App.pdb
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.dll
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.pdb
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.csprojResolveAssemblyReference.cache
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\ModernDataServices.App.dll.config
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\BrockAllen.MembershipReboot.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\BrockAllen.MembershipReboot.Owin.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\EntityFramework.dll
@@ -108,5 +105,7 @@ D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\Thinktecture.IdentityModel.Core.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\Thinktecture.IdentityModel.Owin.ResourceAuthorization.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\bin\Debug\Thinktecture.IdentityModel.Owin.ResourceAuthorization.WebApi.pdb
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.Data.Migrations.InitialCreate.resources
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.csproj.GenerateResource.Cache

@@ -5,23 +5,50 @@
     /// </summary>
     public static class Constants
     {
+        /// <summary>
+        /// Application Constants
+        /// </summary>
         public static class AppInfo
         {
+            /// <summary>
+            /// The API version
+            /// </summary>
             public const string ApiVersion = "v1.0";
 
+            /// <summary>
+            /// The application name
+            /// </summary>
             public const string AppName = "MyApi";
 
+            /// <summary>
+            /// The assembly name
+            /// </summary>
             public const string AssemblyName = "ModernDataServices";
 
+            /// <summary>
+            /// The assembly host name/
+            /// </summary>
             public const string AssemblyHostName = "ModernDataServices.Api.Host";
 
+            /// <summary>
+            /// The display name
+            /// </summary>
             public const string DisplayName = "ModernDataServices.DisplayName";
 
+            /// <summary>
+            /// The service name
+            /// </summary>
             public const string ServiceName = "ModernDataServices.ServiceName";
 
+            /// <summary>
+            /// The description
+            /// </summary>
             public const string Description = "Modern Data Service Description";
         }
 
+        /// <summary>
+        /// Hangfire Constants
+        /// </summary>
         public static class HangfireInfo
         {
             public const string QueueName = "myqueue";
@@ -45,17 +72,17 @@
             /// <summary>
             /// The address prefix
             /// </summary>
-            public const string AddressPrefix = ApiRoutePrefix + "/person/{personid:int}/address";
+            public const string AddressPrefix = ApiRoutePrefix + "/person/{personid:Guid}/address";
 
             /// <summary>
             /// The phone prefix
             /// </summary>
-            public const string PhonePrefix = ApiRoutePrefix + "/person/{personid:int}/phone";
+            public const string PhonePrefix = ApiRoutePrefix + "/person/{personid:Guid}/phone";
 
             /// <summary>
             /// The email prefix
             /// </summary>
-            public const string EmailPrefix = ApiRoutePrefix + "/person/{personid:int}/email";
+            public const string EmailPrefix = ApiRoutePrefix + "/person/{personid:Guid}/email";
 
 
             /// <summary>
@@ -93,6 +120,21 @@
             /// </summary>
             public const string GetValueByIdRoute = "values/{id:int}";
 
+            /// <summary>
+            /// The email route
+            /// </summary>
+            public const string EmailRoute = "/email";
+
+            /// <summary>
+            /// The address route
+            /// </summary>
+            public const string AddressRoute = "/address";
+
+            /// <summary>
+            /// The phone route
+            /// </summary>
+            public const string PhoneRoute = "/phone";
+
         }
 
         /// <summary>
@@ -125,47 +167,116 @@
             /// </summary>
             public const string GetValueById = "Get Value By Id";
 
+            /// <summary>
+            /// The get email collection
+            /// </summary>
             public const string GetEmailCollection = "Get Emails";
 
+            /// <summary>
+            /// The get email by identifier
+            /// </summary>
             public const string GetEmailById = "Get Email By Id";
 
+            /// <summary>
+            /// The create email
+            /// </summary>
             public const string CreateEmail = "Create Email";
 
+            /// <summary>
+            /// The edit email
+            /// </summary>
             public const string EditEmail = "Edit Email";
-            
+
+            /// <summary>
+            /// The delete email
+            /// </summary>
             public const string DeleteEmail = "Delete Email";
 
+            /// <summary>
+            /// The get phone collection
+            /// </summary>
             public const string GetPhoneCollection = "Get Phones";
 
+            /// <summary>
+            /// The get phone by identifier
+            /// </summary>
             public const string GetPhoneById = "Get Phone By Id";
 
+            /// <summary>
+            /// The create phone
+            /// </summary>
             public const string CreatePhone = "Create Phone";
 
+            /// <summary>
+            /// The edit phone
+            /// </summary>
             public const string EditPhone = "Edit Phone";
 
+            /// <summary>
+            /// The delete phone
+            /// </summary>
             public const string DeletePhone = "Delete Phone";
 
+            /// <summary>
+            /// The get address collection
+            /// </summary>
             public const string GetAddressCollection = "Get Addresss";
 
+            /// <summary>
+            /// The get address by identifier
+            /// </summary>
             public const string GetAddressById = "Get Address By Id";
 
+            /// <summary>
+            /// The create address
+            /// </summary>
             public const string CreateAddress = "Create Address";
 
+            /// <summary>
+            /// The edit address
+            /// </summary>
             public const string EditAddress = "Edit Address";
 
+            /// <summary>
+            /// The delete address/
+            /// </summary>
             public const string DeleteAddress = "Delete Address";
 
+            /// <summary>
+            /// The get person by identifier
+            /// </summary>
             public const string GetPersonById = "Get Person By Id";
 
+            /// <summary>
+            /// The create person/
+            /// </summary>
             public const string CreatePerson = "Create Person";
 
+            /// <summary>
+            /// The edit person
+            /// </summary>
             public const string EditPerson = "Edit Person";
 
+            /// <summary>
+            /// The delete person
+            /// </summary>
             public const string DeletePerson = "Delete Person";
         }
 
+        public static class ResourseClaimsTypes
+        {
+            public const string UserId = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier";
+            public const string Name = "name";
+            public const string Id = "id";
+        }
 
+        public static class Roles
+        {
+            public const string Admin = "Admin";
 
+            public const string User = "User";
+        }
+        
         #region CacheOut Settings
 
         /// <summary>

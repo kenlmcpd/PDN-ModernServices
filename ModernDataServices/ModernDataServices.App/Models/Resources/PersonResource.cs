@@ -8,14 +8,14 @@ namespace ModernDataServices.App.Models.Resources
 {
     public class PersonResource
     {
-        public int Id { get; set; }
+        public Guid PersonId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime BirthDate { get; set; }
 
-        public List<AddressResource> Addresses { get; set; }
-        public List<PhoneResource> Phones { get; set; }
-        public List<EmailResource> EmailAddresses { get; set; }
+        public CollectionResource<AddressResource> Addresses { get; set; }
+        public CollectionResource<PhoneResource> Phones { get; set; }
+        public CollectionResource<EmailResource> EmailAddresses { get; set; }
 
         public List<Link> Links { get; set; }
     }

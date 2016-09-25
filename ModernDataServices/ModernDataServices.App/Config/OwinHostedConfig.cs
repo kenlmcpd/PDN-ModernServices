@@ -56,7 +56,7 @@ namespace ModernDataServices.App.Config
             app.UseMetrics();
 
             // Uncomment after you create the database
-            //app.UseOwinHangfire();
+            app.UseOwinHangfire();
         }
     }
 }

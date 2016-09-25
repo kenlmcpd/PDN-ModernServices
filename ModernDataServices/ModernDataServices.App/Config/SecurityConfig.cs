@@ -7,12 +7,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
+using IdentityModel;
 using IdentityServer3.AccessTokenValidation;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
 using NLog;
 using Owin;
+using Thinktecture.IdentityModel.Owin.ResourceAuthorization;
 
 
 namespace ModernDataServices.App.Config
@@ -50,7 +52,7 @@ namespace ModernDataServices.App.Config
         /// <summary>
         /// A class to add additional claims to the Identity.
         /// </summary>
-        private class Provider : OAuthBearerAuthenticationProvider
+        public class Provider : OAuthBearerAuthenticationProvider
         {
             /// <summary>
             /// Handles validating the identity produced from an OAuth bearer token.
@@ -63,8 +65,9 @@ namespace ModernDataServices.App.Config
                 // Then you can add an attribute over the api method to define what role
                 // the user needs to that funtionality
                 var claims = context.Ticket.Identity.Claims;
-
                 
+                // Add Claims from another source here - example existing database structure
+
                 return base.ValidateIdentity(context);
             }
         }

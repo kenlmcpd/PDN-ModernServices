@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IdentityModel.Tokens;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web.Helpers;
 using IdentityModel.Client;
+using IdentityServer3.AccessTokenValidation;
 using Microsoft.IdentityModel.Protocols;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
@@ -16,6 +18,8 @@ using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
+using Thinktecture.IdentityModel.Owin.ResourceAuthorization;
+using Constants = IdentityServer3.Core.Constants;
 
 [assembly: OwinStartup(typeof(ModernDataServices.MVC.Host.Startup))]
 
@@ -35,16 +39,18 @@ namespace ModernDataServices.MVC.Host
             // Set up IOC Container
             IocConfig.UseIoc();
 
-            // Set MVC to use the same Identity settings as Owin
             app.UseIdentityClientConfig();
             app.UseResourceAuthorization();
 
+            app.UseHttpConfig();
+            
             // FUN Stuff
             app.UseMetrics();
 
             // Uncomment After Database is created
-            //app.UseOwinHangfire();
+            app.UseOwinHangfire();
             
          }
     }
+    
 }

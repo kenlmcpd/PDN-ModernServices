@@ -286,17 +286,27 @@
     <Compile Include="Controllers\PhoneController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Data\ApplicationContext.cs" />
-    <Compile Include="Data\Migrations\201609231354523_InitialCreate.cs" />
-    <Compile Include="Data\Migrations\201609231354523_InitialCreate.Designer.cs">
-      <DependentUpon>201609231354523_InitialCreate.cs</DependentUpon>
+    <Compile Include="Data\DalBase.cs" />
+    <Compile Include="Data\Migrations\201609252212152_InitialCreate.cs" />
+    <Compile Include="Data\Migrations\201609252212152_InitialCreate.Designer.cs">
+      <DependentUpon>201609252212152_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\Migrations\Configuration.cs" />
     <Compile Include="MethodTimeLogger.cs" />
     <Compile Include="Models\Data\Address.cs" />
     <Compile Include="Models\Data\Email.cs" />
+    <Compile Include="Models\Data\LogTable.cs" />
     <Compile Include="Models\Data\Person.cs" />
     <Compile Include="Models\Data\Phone.cs" />
+    <Compile Include="Models\Extensions\AddressCollectionExtension.cs" />
+    <Compile Include="Models\Extensions\AddressExtension.cs" />
+    <Compile Include="Models\Extensions\EmailCollectionExtension.cs" />
+    <Compile Include="Models\Extensions\EmailExtension.cs" />
+    <Compile Include="Models\Extensions\PersonExtension.cs" />
+    <Compile Include="Models\Extensions\PhoneCollectionExtension.cs" />
+    <Compile Include="Models\Extensions\PhoneExtension.cs" />
     <Compile Include="Models\Resources\AddressResource.cs" />
+    <Compile Include="Models\Resources\CollectionResource.cs" />
     <Compile Include="Models\Resources\EmailResource.cs" />
     <Compile Include="Models\Resources\Link.cs" />
     <Compile Include="Models\Resources\PersonResource.cs" />
@@ -312,10 +322,9 @@
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="Data\Migrations\201609231354523_InitialCreate.resx">
-      <DependentUpon>201609231354523_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Data\Migrations\201609252212152_InitialCreate.resx">
+      <DependentUpon>201609252212152_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

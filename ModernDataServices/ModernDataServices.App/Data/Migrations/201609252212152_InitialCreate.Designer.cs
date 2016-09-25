@@ -13,7 +13,7 @@ namespace ModernDataServices.App.Data.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201609231354523_InitialCreate"; }
+            get { return "201609252212152_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source

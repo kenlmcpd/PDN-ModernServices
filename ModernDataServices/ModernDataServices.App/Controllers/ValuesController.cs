@@ -32,6 +32,8 @@ namespace ModernDataServices.App.Controllers
         }
 
         // POST api/values
+        [ResourceAuthorize(Constants.RouteNames.GetValues, "Admin")]
+        [HttpPost, Route(Constants.Routes.GetValuesRoute, Name = "Pst Test")]
         public void Post([FromBody]string value)
         {
         }
