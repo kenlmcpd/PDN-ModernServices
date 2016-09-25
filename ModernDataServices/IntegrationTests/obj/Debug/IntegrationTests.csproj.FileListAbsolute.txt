@@ -1,0 +1,13 @@
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\obj\Debug\IntegrationTests.csprojResolveAssemblyReference.cache
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\IntegrationTests.exe.config
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\IntegrationTests.exe
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\IntegrationTests.pdb
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\Newtonsoft.Json.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\nunit.framework.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\System.Net.Http.Extensions.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\System.Net.Http.Primitives.dll
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\Newtonsoft.Json.xml
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\bin\Debug\nunit.framework.xml
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\obj\Debug\IntegrationTests.exe
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\IntegrationTests\obj\Debug\IntegrationTests.pdb

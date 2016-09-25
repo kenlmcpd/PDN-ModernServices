@@ -29,14 +29,59 @@ namespace EmbeddedMvc.IdentityServer
                 },
                 new InMemoryUser
                 {
-                    Username = "mary",
+                    Username = "Mary",
                     Password = "secret",
-                    Subject = "cf5483c5-5c7d-497f-9899-ce403d411a87",
+                    Subject = "cf5483c5-5c7d-497f-9899-ce403d411a88",
                     Enabled = true,
                     
                     Claims = new[]
                     {
-                        new Claim(Constants.ClaimTypes.GivenName, "Mary"),
+                        new Claim(Constants.ClaimTypes.GivenName, "Dan"),
+                        new Claim(Constants.ClaimTypes.FamilyName, "Smith"),
+                        new Claim(Constants.ClaimTypes.Role, "User"),
+                        new Claim(Constants.ClaimTypes.Role, "Login")
+                    }
+                },
+                new InMemoryUser
+                {
+                    Username = "john",
+                    Password = "secret",
+                    Subject = "cf5483c5-5c7d-497f-9899-ce403d411a89",
+                    Enabled = true,
+
+                    Claims = new[]
+                    {
+                        new Claim(Constants.ClaimTypes.GivenName, "John"),
+                        new Claim(Constants.ClaimTypes.FamilyName, "Smith"),
+                        new Claim(Constants.ClaimTypes.Role, "User"),
+                        new Claim(Constants.ClaimTypes.Role, "Login")
+                    }
+                },
+                new InMemoryUser
+                {
+                    Username = "sally",
+                    Password = "secret",
+                    Subject = "cf5483c5-5c7d-497f-9899-ce403d411a90",
+                    Enabled = true,
+
+                    Claims = new[]
+                    {
+                        new Claim(Constants.ClaimTypes.GivenName, "Sally"),
+                        new Claim(Constants.ClaimTypes.FamilyName, "Smith"),
+                        new Claim(Constants.ClaimTypes.Role, "User"),
+                        new Claim(Constants.ClaimTypes.Role, "Login")
+                    }
+                },
+                new InMemoryUser
+                {
+                    Username = "ben",
+                    Password = "secret",
+                    Subject = "cf5483c5-5c7d-497f-9899-ce403d411a91",
+                    Enabled = true,
+
+                    Claims = new[]
+                    {
+                        new Claim(Constants.ClaimTypes.GivenName, "Ben"),
                         new Claim(Constants.ClaimTypes.FamilyName, "Smith"),
                         new Claim(Constants.ClaimTypes.Role, "User"),
                         new Claim(Constants.ClaimTypes.Role, "Login")
