@@ -55,6 +55,6 @@ D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\EmbeddedMvc\bin\Th
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\EmbeddedMvc\bin\Thinktecture.IdentityModel.Owin.ResourceAuthorization.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\EmbeddedMvc\bin\Thinktecture.IdentityModel.Owin.ResourceAuthorization.Mvc.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\EmbeddedMvc\obj\Debug\MVC Authentication.csproj.App.config
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\EmbeddedMvc\obj\Debug\MVC Authentication.csprojResolveAssemblyReference.cache
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\EmbeddedMvc\obj\Debug\EmbeddedMvc.dll
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\EmbeddedMvc\obj\Debug\EmbeddedMvc.pdb
-D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\EmbeddedMvc\obj\Debug\MVC Authentication.csprojResolveAssemblyReference.cache
