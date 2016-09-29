@@ -8,7 +8,20 @@ namespace ModernDataServices.App.Models.Resources
 {
     public class CollectionResource<T>  where T : class
     {
-        public List<T> Collection { get; set; } 
-        public List<Link> Links { get; set; } 
+        /// <summary>
+        /// Gets or sets the collection.
+        /// </summary>
+        /// <value>
+        /// The collection.
+        /// </value>
+        public List<T> Collection { get; set; }
+
+        /// <summary>
+        /// Gets or sets the links.
+        /// </summary>
+        /// <value>
+        /// The links.
+        /// </value>
+        public List<Link> Links   { get; set; } 
     }
 }

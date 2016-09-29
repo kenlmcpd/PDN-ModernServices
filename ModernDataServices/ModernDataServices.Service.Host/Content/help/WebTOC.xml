@@ -1,0 +1,1128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="c8e0487c-1971-4add-81ec-e1f92ebfb9cb" Title="Api Namespace" Url="html/N-Api.htm">
+    <HelpTOCNode Id="be2da61e-877c-437b-b120-053d8c380e9a" Title="IdentityController Class" Url="html/T-Api.IdentityController.htm">
+      <HelpTOCNode Title="IdentityController Members" Url="html/AllMembers.T-Api.IdentityController.htm" />
+      <HelpTOCNode Id="f1a39afd-ed83-4a6f-bc7f-d33b4e156645" Title="IdentityController Methods" Url="html/Methods.T-Api.IdentityController.htm">
+        <HelpTOCNode Title="Get Method " Url="html/M-Api.IdentityController.Get.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IdentityController Properties" Url="html/Properties.T-Api.IdentityController.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="876f0efc-dcbd-44b9-8bbf-94ea320bba7b" Title="Startup Class" Url="html/T-Api.Startup.htm">
+      <HelpTOCNode Title="Startup Members" Url="html/AllMembers.T-Api.Startup.htm" />
+      <HelpTOCNode Id="c4bce4d4-5b59-43f4-a58b-16b9a70b3fd1" Title="Startup Methods" Url="html/Methods.T-Api.Startup.htm">
+        <HelpTOCNode Title="Configuration Method " Url="html/M-Api.Startup.Configuration.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="34285ee2-ac05-4fbf-9cc0-5966e08d19ca" Title="EmbeddedMvc Namespace" Url="html/N-EmbeddedMvc.htm">
+    <HelpTOCNode Id="8960e96d-1feb-43ce-9e16-e4a71a83f627" Title="AuthorizationManager Class" Url="html/T-EmbeddedMvc.AuthorizationManager.htm">
+      <HelpTOCNode Title="AuthorizationManager Members" Url="html/AllMembers.T-EmbeddedMvc.AuthorizationManager.htm" />
+      <HelpTOCNode Id="38b8c175-9a75-4966-85cf-97df46d7b77b" Title="AuthorizationManager Methods" Url="html/Methods.T-EmbeddedMvc.AuthorizationManager.htm">
+        <HelpTOCNode Title="AuthorizeContactDetails Method " Url="html/M-EmbeddedMvc.AuthorizationManager.AuthorizeContactDetails.htm" />
+        <HelpTOCNode Id="d62f9879-4c47-4c9a-8664-9ae157fb2a79" Title="CheckAccessAsync Method " Url="html/Overload-EmbeddedMvc.AuthorizationManager.CheckAccessAsync.htm">
+          <HelpTOCNode Title="CheckAccessAsync Method " Url="html/M-EmbeddedMvc.AuthorizationManager.CheckAccessAsync.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ab04aaca-3980-404d-bca2-607e8ae2c610" Title="BundleConfig Class" Url="html/T-EmbeddedMvc.BundleConfig.htm">
+      <HelpTOCNode Title="BundleConfig Members" Url="html/AllMembers.T-EmbeddedMvc.BundleConfig.htm" />
+      <HelpTOCNode Id="b44e395d-e2ad-43c8-b180-e84ea8cc8e3f" Title="BundleConfig Methods" Url="html/Methods.T-EmbeddedMvc.BundleConfig.htm">
+        <HelpTOCNode Title="RegisterBundles Method " Url="html/M-EmbeddedMvc.BundleConfig.RegisterBundles.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fdd7e768-7c88-466a-aedf-60f5e96665c0" Title="FilterConfig Class" Url="html/T-EmbeddedMvc.FilterConfig.htm">
+      <HelpTOCNode Title="FilterConfig Members" Url="html/AllMembers.T-EmbeddedMvc.FilterConfig.htm" />
+      <HelpTOCNode Id="fce9bd8a-a0d3-4ed9-9abb-f2f9441849bd" Title="FilterConfig Methods" Url="html/Methods.T-EmbeddedMvc.FilterConfig.htm">
+        <HelpTOCNode Title="RegisterGlobalFilters Method " Url="html/M-EmbeddedMvc.FilterConfig.RegisterGlobalFilters.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6adb2e74-cf30-4879-84fe-7fee8d42c791" Title="MvcApplication Class" Url="html/T-EmbeddedMvc.MvcApplication.htm">
+      <HelpTOCNode Title="MvcApplication Members" Url="html/AllMembers.T-EmbeddedMvc.MvcApplication.htm" />
+      <HelpTOCNode Id="aa8cd59a-c077-4ba6-871b-5eb5efcd72d0" Title="MvcApplication Methods" Url="html/Methods.T-EmbeddedMvc.MvcApplication.htm">
+        <HelpTOCNode Title="Application_Start Method " Url="html/M-EmbeddedMvc.MvcApplication.Application_Start.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MvcApplication Properties" Url="html/Properties.T-EmbeddedMvc.MvcApplication.htm" />
+      <HelpTOCNode Title="MvcApplication Events" Url="html/Events.T-EmbeddedMvc.MvcApplication.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bdbdb495-75ab-4077-8577-0c2b09ba9d78" Title="RouteConfig Class" Url="html/T-EmbeddedMvc.RouteConfig.htm">
+      <HelpTOCNode Title="RouteConfig Members" Url="html/AllMembers.T-EmbeddedMvc.RouteConfig.htm" />
+      <HelpTOCNode Id="12a3a25b-1ee1-4552-b842-a542a29d5112" Title="RouteConfig Methods" Url="html/Methods.T-EmbeddedMvc.RouteConfig.htm">
+        <HelpTOCNode Title="RegisterRoutes Method " Url="html/M-EmbeddedMvc.RouteConfig.RegisterRoutes.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b9bc4c94-44b7-4560-91fc-e2012dfdb1bb" Title="Startup Class" Url="html/T-EmbeddedMvc.Startup.htm">
+      <HelpTOCNode Title="Startup Members" Url="html/AllMembers.T-EmbeddedMvc.Startup.htm" />
+      <HelpTOCNode Id="af772eb9-0252-4477-bb12-f23a550948ad" Title="Startup Methods" Url="html/Methods.T-EmbeddedMvc.Startup.htm">
+        <HelpTOCNode Title="Configuration Method " Url="html/M-EmbeddedMvc.Startup.Configuration.htm" />
+        <HelpTOCNode Title="ConfigureIdentityProviders Method " Url="html/M-EmbeddedMvc.Startup.ConfigureIdentityProviders.htm" />
+        <HelpTOCNode Title="LoadCertificate Method " Url="html/M-EmbeddedMvc.Startup.LoadCertificate.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="1f2f6d6c-43e8-47d4-9cb6-ef69a3aa2210" Title="EmbeddedMvc.Controllers Namespace" Url="html/N-EmbeddedMvc.Controllers.htm">
+    <HelpTOCNode Id="b0707a6c-8cd4-4c0f-881f-9bfc58d4e4ad" Title="CallApiController Class" Url="html/T-EmbeddedMvc.Controllers.CallApiController.htm">
+      <HelpTOCNode Title="CallApiController Members" Url="html/AllMembers.T-EmbeddedMvc.Controllers.CallApiController.htm" />
+      <HelpTOCNode Id="f6edfc4e-7354-4476-a27c-bfbc9a0bc63e" Title="CallApiController Methods" Url="html/Methods.T-EmbeddedMvc.Controllers.CallApiController.htm">
+        <HelpTOCNode Title="CallApi Method " Url="html/M-EmbeddedMvc.Controllers.CallApiController.CallApi.htm" />
+        <HelpTOCNode Title="ClientCredentials Method " Url="html/M-EmbeddedMvc.Controllers.CallApiController.ClientCredentials.htm" />
+        <HelpTOCNode Title="GetTokenAsync Method " Url="html/M-EmbeddedMvc.Controllers.CallApiController.GetTokenAsync.htm" />
+        <HelpTOCNode Title="UserCredentials Method " Url="html/M-EmbeddedMvc.Controllers.CallApiController.UserCredentials.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CallApiController Properties" Url="html/Properties.T-EmbeddedMvc.Controllers.CallApiController.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="009ae23f-62b5-48c8-9c07-8370751c5d3b" Title="HomeController Class" Url="html/T-EmbeddedMvc.Controllers.HomeController.htm">
+      <HelpTOCNode Title="HomeController Members" Url="html/AllMembers.T-EmbeddedMvc.Controllers.HomeController.htm" />
+      <HelpTOCNode Id="a17485c4-b935-495c-946c-aae9d16030fb" Title="HomeController Methods" Url="html/Methods.T-EmbeddedMvc.Controllers.HomeController.htm">
+        <HelpTOCNode Title="About Method " Url="html/M-EmbeddedMvc.Controllers.HomeController.About.htm" />
+        <HelpTOCNode Title="Contact Method " Url="html/M-EmbeddedMvc.Controllers.HomeController.Contact.htm" />
+        <HelpTOCNode Title="Index Method " Url="html/M-EmbeddedMvc.Controllers.HomeController.Index.htm" />
+        <HelpTOCNode Title="Logout Method " Url="html/M-EmbeddedMvc.Controllers.HomeController.Logout.htm" />
+        <HelpTOCNode Title="UpdateContact Method " Url="html/M-EmbeddedMvc.Controllers.HomeController.UpdateContact.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="HomeController Properties" Url="html/Properties.T-EmbeddedMvc.Controllers.HomeController.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="513abeed-c957-4e99-b273-dc1de03f7344" Title="EmbeddedMvc.IdentityServer Namespace" Url="html/N-EmbeddedMvc.IdentityServer.htm">
+    <HelpTOCNode Id="550b46dc-cdde-4c55-b41c-5e8f009d1012" Title="Clients Class" Url="html/T-EmbeddedMvc.IdentityServer.Clients.htm">
+      <HelpTOCNode Title="Clients Members" Url="html/AllMembers.T-EmbeddedMvc.IdentityServer.Clients.htm" />
+      <HelpTOCNode Id="879975da-9591-4f56-9567-38beb82b60a9" Title="Clients Methods" Url="html/Methods.T-EmbeddedMvc.IdentityServer.Clients.htm">
+        <HelpTOCNode Title="Get Method " Url="html/M-EmbeddedMvc.IdentityServer.Clients.Get.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f90c479f-6984-41da-ab08-c156f611513f" Title="Scopes Class" Url="html/T-EmbeddedMvc.IdentityServer.Scopes.htm">
+      <HelpTOCNode Title="Scopes Members" Url="html/AllMembers.T-EmbeddedMvc.IdentityServer.Scopes.htm" />
+      <HelpTOCNode Id="4b8bb6cb-3b25-41b3-92bf-a84fcf71620c" Title="Scopes Methods" Url="html/Methods.T-EmbeddedMvc.IdentityServer.Scopes.htm">
+        <HelpTOCNode Title="Get Method " Url="html/M-EmbeddedMvc.IdentityServer.Scopes.Get.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="25915d4b-9cfc-4f19-989e-0c6bee24d450" Title="Users Class" Url="html/T-EmbeddedMvc.IdentityServer.Users.htm">
+      <HelpTOCNode Title="Users Members" Url="html/AllMembers.T-EmbeddedMvc.IdentityServer.Users.htm" />
+      <HelpTOCNode Id="a3b3aacf-15f2-4b0f-96f2-7671df509515" Title="Users Methods" Url="html/Methods.T-EmbeddedMvc.IdentityServer.Users.htm">
+        <HelpTOCNode Title="Get Method " Url="html/M-EmbeddedMvc.IdentityServer.Users.Get.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="10b7761e-7199-4876-b898-e6d766bb5b55" Title="IntegrationTests Namespace" Url="html/N-IntegrationTests.htm">
+    <HelpTOCNode Id="0c327a43-9ea5-4303-b5e1-d7b39c6a0cdd" Title="Authentication Class" Url="html/T-IntegrationTests.Authentication.htm">
+      <HelpTOCNode Title="Authentication Members" Url="html/AllMembers.T-IntegrationTests.Authentication.htm" />
+      <HelpTOCNode Id="ad9e5055-00da-49d8-b746-d3223067f269" Title="Authentication Fields" Url="html/Fields.T-IntegrationTests.Authentication.htm">
+        <HelpTOCNode Title="_idModel Field" Url="html/F-IntegrationTests.Authentication._idModel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a6d866a9-5a0b-4d98-bc79-a07f7a61d3cd" Title="Authentication Methods" Url="html/Methods.T-IntegrationTests.Authentication.htm">
+        <HelpTOCNode Title="Authenticate Method " Url="html/M-IntegrationTests.Authentication.Authenticate.htm" />
+        <HelpTOCNode Title="IdentityModel Method " Url="html/M-IntegrationTests.Authentication.IdentityModel.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a0b52bcc-a0c6-40ac-8c0f-cf3794ca1099" Title="IdentityModel Class" Url="html/T-IntegrationTests.IdentityModel.htm">
+      <HelpTOCNode Title="IdentityModel Members" Url="html/AllMembers.T-IntegrationTests.IdentityModel.htm" />
+      <HelpTOCNode Title="IdentityModel Methods" Url="html/Methods.T-IntegrationTests.IdentityModel.htm" />
+      <HelpTOCNode Id="a0fb540f-5468-491e-b175-42ae2e4a578e" Title="IdentityModel Properties" Url="html/Properties.T-IntegrationTests.IdentityModel.htm">
+        <HelpTOCNode Title="access_token Property " Url="html/P-IntegrationTests.IdentityModel.access_token.htm" />
+        <HelpTOCNode Title="expires_in Property " Url="html/P-IntegrationTests.IdentityModel.expires_in.htm" />
+        <HelpTOCNode Title="token_type Property " Url="html/P-IntegrationTests.IdentityModel.token_type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c64f008a-3a8d-4ecd-9e70-6e87ef91d1ac" Title="PersonControllerSpecifications Class" Url="html/T-IntegrationTests.PersonControllerSpecifications.htm">
+      <HelpTOCNode Title="PersonControllerSpecifications Members" Url="html/AllMembers.T-IntegrationTests.PersonControllerSpecifications.htm" />
+      <HelpTOCNode Id="22be9e4e-b480-4c33-82a3-c40a96599284" Title="PersonControllerSpecifications Methods" Url="html/Methods.T-IntegrationTests.PersonControllerSpecifications.htm">
+        <HelpTOCNode Title="Should_Allow_Admin_User_To_Create_Person Method " Url="html/M-IntegrationTests.PersonControllerSpecifications.Should_Allow_Admin_User_To_Create_Person.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PersonControllerSpecifications Properties" Url="html/Properties.T-IntegrationTests.PersonControllerSpecifications.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="635e4d96-8f81-41ac-a646-caf219dc0d99" Title="Program Class" Url="html/T-IntegrationTests.Program.htm">
+      <HelpTOCNode Title="Program Members" Url="html/AllMembers.T-IntegrationTests.Program.htm" />
+      <HelpTOCNode Id="e82074d2-deb8-488b-a1bb-9c01e2a5c6fb" Title="Program Methods" Url="html/Methods.T-IntegrationTests.Program.htm">
+        <HelpTOCNode Title="Main Method " Url="html/M-IntegrationTests.Program.Main.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="63dd3adf-0594-4365-8bfe-520d67989b8f" Title="TestBase Class" Url="html/T-IntegrationTests.TestBase.htm">
+      <HelpTOCNode Title="TestBase Members" Url="html/AllMembers.T-IntegrationTests.TestBase.htm" />
+      <HelpTOCNode Title="TestBase Constructor " Url="html/M-IntegrationTests.TestBase.-ctor.htm" />
+      <HelpTOCNode Id="3ae871f4-0e90-4a68-8fd9-449bdbaf651d" Title="TestBase Fields" Url="html/Fields.T-IntegrationTests.TestBase.htm">
+        <HelpTOCNode Title="ApiPassword Field" Url="html/F-IntegrationTests.TestBase.ApiPassword.htm" />
+        <HelpTOCNode Title="ApiUsername Field" Url="html/F-IntegrationTests.TestBase.ApiUsername.htm" />
+        <HelpTOCNode Title="ApiVersion Field" Url="html/F-IntegrationTests.TestBase.ApiVersion.htm" />
+        <HelpTOCNode Title="Etag Field" Url="html/F-IntegrationTests.TestBase.Etag.htm" />
+        <HelpTOCNode Title="HostServer Field" Url="html/F-IntegrationTests.TestBase.HostServer.htm" />
+        <HelpTOCNode Title="TestUsers Field" Url="html/F-IntegrationTests.TestBase.TestUsers.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2f49b0f0-8893-4943-ac20-6364e0035dd1" Title="TestBase Methods" Url="html/Methods.T-IntegrationTests.TestBase.htm">
+        <HelpTOCNode Title="GetHttpClient Method " Url="html/M-IntegrationTests.TestBase.GetHttpClient.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="26ca48ef-31ae-407d-b687-28d0e85b2e8f" Title="TestBase Properties" Url="html/Properties.T-IntegrationTests.TestBase.htm">
+        <HelpTOCNode Title="AuthorizedHttpClient Property " Url="html/P-IntegrationTests.TestBase.AuthorizedHttpClient.htm" />
+        <HelpTOCNode Title="CachedHttpClient Property " Url="html/P-IntegrationTests.TestBase.CachedHttpClient.htm" />
+        <HelpTOCNode Title="UnAuthorizedHttpClient Property " Url="html/P-IntegrationTests.TestBase.UnAuthorizedHttpClient.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1240173f-6be9-4829-86b5-18513b88f079" Title="TestUser Class" Url="html/T-IntegrationTests.TestUser.htm">
+      <HelpTOCNode Title="TestUser Members" Url="html/AllMembers.T-IntegrationTests.TestUser.htm" />
+      <HelpTOCNode Title="TestUser Methods" Url="html/Methods.T-IntegrationTests.TestUser.htm" />
+      <HelpTOCNode Id="f3386685-f261-4257-bca6-2f13fe5ed3b8" Title="TestUser Properties" Url="html/Properties.T-IntegrationTests.TestUser.htm">
+        <HelpTOCNode Title="FirstName Property " Url="html/P-IntegrationTests.TestUser.FirstName.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-IntegrationTests.TestUser.Id.htm" />
+        <HelpTOCNode Title="LastName Property " Url="html/P-IntegrationTests.TestUser.LastName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="9fd44949-59d4-443f-8634-dde291f62a03" Title="ModernDataServices.App Namespace" Url="html/N-ModernDataServices.App.htm">
+    <HelpTOCNode Id="8b9e5ff4-c518-45c0-a77c-2130b013abfb" Title="Constants Class" Url="html/T-ModernDataServices.App.Constants.htm">
+      <HelpTOCNode Title="Constants Methods" Url="html/Methods.T-ModernDataServices.App.Constants.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="07f448c4-0745-4da9-b576-11e0d240570a" Title="Constants.AppInfo Class" Url="html/T-ModernDataServices.App.Constants.AppInfo.htm">
+      <HelpTOCNode Title="Constants.AppInfo Members" Url="html/AllMembers.T-ModernDataServices.App.Constants.AppInfo.htm" />
+      <HelpTOCNode Id="a1ebf5b0-dad4-4ff0-9fec-f85860d9f662" Title="Constants.AppInfo Fields" Url="html/Fields.T-ModernDataServices.App.Constants.AppInfo.htm">
+        <HelpTOCNode Title="ApiVersion Field" Url="html/F-ModernDataServices.App.Constants.AppInfo.ApiVersion.htm" />
+        <HelpTOCNode Title="AppName Field" Url="html/F-ModernDataServices.App.Constants.AppInfo.AppName.htm" />
+        <HelpTOCNode Title="AssemblyHostName Field" Url="html/F-ModernDataServices.App.Constants.AppInfo.AssemblyHostName.htm" />
+        <HelpTOCNode Title="AssemblyName Field" Url="html/F-ModernDataServices.App.Constants.AppInfo.AssemblyName.htm" />
+        <HelpTOCNode Title="Description Field" Url="html/F-ModernDataServices.App.Constants.AppInfo.Description.htm" />
+        <HelpTOCNode Title="DisplayName Field" Url="html/F-ModernDataServices.App.Constants.AppInfo.DisplayName.htm" />
+        <HelpTOCNode Title="ServiceName Field" Url="html/F-ModernDataServices.App.Constants.AppInfo.ServiceName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.AppInfo Methods" Url="html/Methods.T-ModernDataServices.App.Constants.AppInfo.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b0bb426a-9904-4fd2-80c9-4a523f3f6346" Title="Constants.CacheSettings Class" Url="html/T-ModernDataServices.App.Constants.CacheSettings.htm">
+      <HelpTOCNode Title="Constants.CacheSettings Members" Url="html/AllMembers.T-ModernDataServices.App.Constants.CacheSettings.htm" />
+      <HelpTOCNode Id="c204f36f-88cc-4935-b615-10c5324b7c31" Title="Constants.CacheSettings Fields" Url="html/Fields.T-ModernDataServices.App.Constants.CacheSettings.htm">
+        <HelpTOCNode Title="CacheClientTimeSpan Field" Url="html/F-ModernDataServices.App.Constants.CacheSettings.CacheClientTimeSpan.htm" />
+        <HelpTOCNode Title="CacheServerTimeSpan Field" Url="html/F-ModernDataServices.App.Constants.CacheSettings.CacheServerTimeSpan.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.CacheSettings Methods" Url="html/Methods.T-ModernDataServices.App.Constants.CacheSettings.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c9c21010-b55c-4a48-877c-a386fd413fb7" Title="Constants.HangfireInfo Class" Url="html/T-ModernDataServices.App.Constants.HangfireInfo.htm">
+      <HelpTOCNode Title="Constants.HangfireInfo Members" Url="html/AllMembers.T-ModernDataServices.App.Constants.HangfireInfo.htm" />
+      <HelpTOCNode Id="fe1bb75c-dae0-42ef-8d75-d06ec1ed8b8d" Title="Constants.HangfireInfo Fields" Url="html/Fields.T-ModernDataServices.App.Constants.HangfireInfo.htm">
+        <HelpTOCNode Title="QueueName Field" Url="html/F-ModernDataServices.App.Constants.HangfireInfo.QueueName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.HangfireInfo Methods" Url="html/Methods.T-ModernDataServices.App.Constants.HangfireInfo.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9c6b8e52-80fe-49dd-ab2c-7cc77c392940" Title="Constants.ResourseClaimsTypes Class" Url="html/T-ModernDataServices.App.Constants.ResourseClaimsTypes.htm">
+      <HelpTOCNode Title="Constants.ResourseClaimsTypes Members" Url="html/AllMembers.T-ModernDataServices.App.Constants.ResourseClaimsTypes.htm" />
+      <HelpTOCNode Id="8d975a70-b4f9-4871-baea-c2a9fe2a5b08" Title="Constants.ResourseClaimsTypes Fields" Url="html/Fields.T-ModernDataServices.App.Constants.ResourseClaimsTypes.htm">
+        <HelpTOCNode Title="Id Field" Url="html/F-ModernDataServices.App.Constants.ResourseClaimsTypes.Id.htm" />
+        <HelpTOCNode Title="Name Field" Url="html/F-ModernDataServices.App.Constants.ResourseClaimsTypes.Name.htm" />
+        <HelpTOCNode Title="UserId Field" Url="html/F-ModernDataServices.App.Constants.ResourseClaimsTypes.UserId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.ResourseClaimsTypes Methods" Url="html/Methods.T-ModernDataServices.App.Constants.ResourseClaimsTypes.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2e0860e0-9ad3-4f5e-a253-5764a49285e0" Title="Constants.Roles Class" Url="html/T-ModernDataServices.App.Constants.Roles.htm">
+      <HelpTOCNode Title="Constants.Roles Members" Url="html/AllMembers.T-ModernDataServices.App.Constants.Roles.htm" />
+      <HelpTOCNode Id="563da6cf-6086-4928-a21d-0a5fc50a0ad9" Title="Constants.Roles Fields" Url="html/Fields.T-ModernDataServices.App.Constants.Roles.htm">
+        <HelpTOCNode Title="Admin Field" Url="html/F-ModernDataServices.App.Constants.Roles.Admin.htm" />
+        <HelpTOCNode Title="User Field" Url="html/F-ModernDataServices.App.Constants.Roles.User.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Roles Methods" Url="html/Methods.T-ModernDataServices.App.Constants.Roles.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3d97cc01-130c-424d-bd70-26a6694786d9" Title="Constants.RouteNames Class" Url="html/T-ModernDataServices.App.Constants.RouteNames.htm">
+      <HelpTOCNode Title="Constants.RouteNames Members" Url="html/AllMembers.T-ModernDataServices.App.Constants.RouteNames.htm" />
+      <HelpTOCNode Id="fb7ee1f5-f245-4074-8aa8-d33898cec3bb" Title="Constants.RouteNames Fields" Url="html/Fields.T-ModernDataServices.App.Constants.RouteNames.htm">
+        <HelpTOCNode Title="CreateAddress Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.CreateAddress.htm" />
+        <HelpTOCNode Title="CreateEmail Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.CreateEmail.htm" />
+        <HelpTOCNode Title="CreatePerson Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.CreatePerson.htm" />
+        <HelpTOCNode Title="CreatePhone Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.CreatePhone.htm" />
+        <HelpTOCNode Title="DeleteAddress Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.DeleteAddress.htm" />
+        <HelpTOCNode Title="DeleteEmail Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.DeleteEmail.htm" />
+        <HelpTOCNode Title="DeletePerson Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.DeletePerson.htm" />
+        <HelpTOCNode Title="DeletePhone Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.DeletePhone.htm" />
+        <HelpTOCNode Title="EditAddress Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.EditAddress.htm" />
+        <HelpTOCNode Title="EditEmail Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.EditEmail.htm" />
+        <HelpTOCNode Title="EditPerson Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.EditPerson.htm" />
+        <HelpTOCNode Title="EditPhone Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.EditPhone.htm" />
+        <HelpTOCNode Title="GetAddressById Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetAddressById.htm" />
+        <HelpTOCNode Title="GetAddressCollection Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetAddressCollection.htm" />
+        <HelpTOCNode Title="GetEmailById Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetEmailById.htm" />
+        <HelpTOCNode Title="GetEmailCollection Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetEmailCollection.htm" />
+        <HelpTOCNode Title="GetPersonById Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetPersonById.htm" />
+        <HelpTOCNode Title="GetPhoneById Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetPhoneById.htm" />
+        <HelpTOCNode Title="GetPhoneCollection Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetPhoneCollection.htm" />
+        <HelpTOCNode Title="GetSecureValues Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetSecureValues.htm" />
+        <HelpTOCNode Title="GetUptime Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetUptime.htm" />
+        <HelpTOCNode Title="GetValueById Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetValueById.htm" />
+        <HelpTOCNode Title="GetValues Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetValues.htm" />
+        <HelpTOCNode Title="GetVersion Field" Url="html/F-ModernDataServices.App.Constants.RouteNames.GetVersion.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.RouteNames Methods" Url="html/Methods.T-ModernDataServices.App.Constants.RouteNames.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5135a8be-e57e-4327-bdc9-68e596420c1b" Title="Constants.Routes Class" Url="html/T-ModernDataServices.App.Constants.Routes.htm">
+      <HelpTOCNode Title="Constants.Routes Members" Url="html/AllMembers.T-ModernDataServices.App.Constants.Routes.htm" />
+      <HelpTOCNode Id="5803c531-4d6d-44e1-95d3-e835f832a15c" Title="Constants.Routes Fields" Url="html/Fields.T-ModernDataServices.App.Constants.Routes.htm">
+        <HelpTOCNode Title="AddressPrefix Field" Url="html/F-ModernDataServices.App.Constants.Routes.AddressPrefix.htm" />
+        <HelpTOCNode Title="AddressRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.AddressRoute.htm" />
+        <HelpTOCNode Title="ApiRoutePrefix Field" Url="html/F-ModernDataServices.App.Constants.Routes.ApiRoutePrefix.htm" />
+        <HelpTOCNode Title="EmailPrefix Field" Url="html/F-ModernDataServices.App.Constants.Routes.EmailPrefix.htm" />
+        <HelpTOCNode Title="EmailRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.EmailRoute.htm" />
+        <HelpTOCNode Title="GetSecureValuesRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.GetSecureValuesRoute.htm" />
+        <HelpTOCNode Title="GetValueByIdRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.GetValueByIdRoute.htm" />
+        <HelpTOCNode Title="GetValuesRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.GetValuesRoute.htm" />
+        <HelpTOCNode Title="GuidIdRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.GuidIdRoute.htm" />
+        <HelpTOCNode Title="IntIdRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.IntIdRoute.htm" />
+        <HelpTOCNode Title="PersonPrefix Field" Url="html/F-ModernDataServices.App.Constants.Routes.PersonPrefix.htm" />
+        <HelpTOCNode Title="PhonePrefix Field" Url="html/F-ModernDataServices.App.Constants.Routes.PhonePrefix.htm" />
+        <HelpTOCNode Title="PhoneRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.PhoneRoute.htm" />
+        <HelpTOCNode Title="UptimeRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.UptimeRoute.htm" />
+        <HelpTOCNode Title="VersionRoute Field" Url="html/F-ModernDataServices.App.Constants.Routes.VersionRoute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Routes Methods" Url="html/Methods.T-ModernDataServices.App.Constants.Routes.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5a35e046-d36e-4320-b89f-7f94062ef880" Title="MethodTimeLogger Class" Url="html/T-ModernDataServices.App.MethodTimeLogger.htm">
+      <HelpTOCNode Title="MethodTimeLogger Members" Url="html/AllMembers.T-ModernDataServices.App.MethodTimeLogger.htm" />
+      <HelpTOCNode Id="c337363c-c37e-4295-9849-47ddbb3649be" Title="MethodTimeLogger Methods" Url="html/Methods.T-ModernDataServices.App.MethodTimeLogger.htm">
+        <HelpTOCNode Title="Log Method " Url="html/M-ModernDataServices.App.MethodTimeLogger.Log.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="9fb5832f-7d26-40d0-835a-b423b07a49b8" Title="ModernDataServices.App.Config Namespace" Url="html/N-ModernDataServices.App.Config.htm">
+    <HelpTOCNode Id="7863f7ff-bffb-4472-a401-619ca9608306" Title="HangfireConfig Class" Url="html/T-ModernDataServices.App.Config.HangfireConfig.htm">
+      <HelpTOCNode Title="HangfireConfig Members" Url="html/AllMembers.T-ModernDataServices.App.Config.HangfireConfig.htm" />
+      <HelpTOCNode Id="2c0a5757-15e8-48ba-8609-ee352fb901fb" Title="HangfireConfig Methods" Url="html/Methods.T-ModernDataServices.App.Config.HangfireConfig.htm">
+        <HelpTOCNode Title="UseOwinHangfire Method " Url="html/M-ModernDataServices.App.Config.HangfireConfig.UseOwinHangfire.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a3b8aa7e-8415-4ae8-9c2f-d0c5436d3f88" Title="HttpConfig Class" Url="html/T-ModernDataServices.App.Config.HttpConfig.htm">
+      <HelpTOCNode Title="HttpConfig Members" Url="html/AllMembers.T-ModernDataServices.App.Config.HttpConfig.htm" />
+      <HelpTOCNode Id="884fd518-8c28-4b75-9f31-2186c222aeb2" Title="HttpConfig Methods" Url="html/Methods.T-ModernDataServices.App.Config.HttpConfig.htm">
+        <HelpTOCNode Title="UseHttpConfig Method " Url="html/M-ModernDataServices.App.Config.HttpConfig.UseHttpConfig.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="088a9d5a-5fcb-4e54-ac99-17379015581c" Title="IocConfig Class" Url="html/T-ModernDataServices.App.Config.IocConfig.htm">
+      <HelpTOCNode Title="IocConfig Members" Url="html/AllMembers.T-ModernDataServices.App.Config.IocConfig.htm" />
+      <HelpTOCNode Id="5efa69f3-a574-4995-8c7c-81e498e3f99d" Title="IocConfig Methods" Url="html/Methods.T-ModernDataServices.App.Config.IocConfig.htm">
+        <HelpTOCNode Title="BuildContainer Method " Url="html/M-ModernDataServices.App.Config.IocConfig.BuildContainer.htm" />
+        <HelpTOCNode Title="UseIoc Method " Url="html/M-ModernDataServices.App.Config.IocConfig.UseIoc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="09295501-323d-425b-9140-274750ab0924" Title="IocConfig Properties" Url="html/Properties.T-ModernDataServices.App.Config.IocConfig.htm">
+        <HelpTOCNode Title="Container Property " Url="html/P-ModernDataServices.App.Config.IocConfig.Container.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="28f4abf2-b812-46ac-84f9-0b5ab37992e7" Title="MetricsConfig Class" Url="html/T-ModernDataServices.App.Config.MetricsConfig.htm">
+      <HelpTOCNode Title="MetricsConfig Members" Url="html/AllMembers.T-ModernDataServices.App.Config.MetricsConfig.htm" />
+      <HelpTOCNode Id="4cde89c1-9deb-4166-9bf7-b033527c606a" Title="MetricsConfig Methods" Url="html/Methods.T-ModernDataServices.App.Config.MetricsConfig.htm">
+        <HelpTOCNode Title="UseMetrics Method " Url="html/M-ModernDataServices.App.Config.MetricsConfig.UseMetrics.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6614c3e1-5484-485d-ab32-7077301b1852" Title="OwinHostedConfig Class" Url="html/T-ModernDataServices.App.Config.OwinHostedConfig.htm">
+      <HelpTOCNode Title="OwinHostedConfig Members" Url="html/AllMembers.T-ModernDataServices.App.Config.OwinHostedConfig.htm" />
+      <HelpTOCNode Title="OwinHostedConfig Constructor " Url="html/M-ModernDataServices.App.Config.OwinHostedConfig.-ctor.htm" />
+      <HelpTOCNode Id="550aff00-6589-405d-95d9-bf476a5e1d5e" Title="OwinHostedConfig Fields" Url="html/Fields.T-ModernDataServices.App.Config.OwinHostedConfig.htm">
+        <HelpTOCNode Title="_development Field" Url="html/F-ModernDataServices.App.Config.OwinHostedConfig._development.htm" />
+        <HelpTOCNode Title="AppInfo Field" Url="html/F-ModernDataServices.App.Config.OwinHostedConfig.AppInfo.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ca58afca-3e0e-4604-b3aa-330b14eeb1e6" Title="OwinHostedConfig Methods" Url="html/Methods.T-ModernDataServices.App.Config.OwinHostedConfig.htm">
+        <HelpTOCNode Title="Configuration Method " Url="html/M-ModernDataServices.App.Config.OwinHostedConfig.Configuration.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="87a60cd2-c98c-43ac-a77b-aafe155fe0a3" Title="ResourceAuthorization Class" Url="html/T-ModernDataServices.App.Config.ResourceAuthorization.htm">
+      <HelpTOCNode Title="ResourceAuthorization Members" Url="html/AllMembers.T-ModernDataServices.App.Config.ResourceAuthorization.htm" />
+      <HelpTOCNode Id="34500950-8121-4377-abc0-216f56c1dec0" Title="ResourceAuthorization Methods" Url="html/Methods.T-ModernDataServices.App.Config.ResourceAuthorization.htm">
+        <HelpTOCNode Id="b387024e-5527-4bca-b521-4469d2406046" Title="CheckAccessAsync Method " Url="html/Overload-ModernDataServices.App.Config.ResourceAuthorization.CheckAccessAsync.htm">
+          <HelpTOCNode Title="CheckAccessAsync Method " Url="html/M-ModernDataServices.App.Config.ResourceAuthorization.CheckAccessAsync.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f00504c4-f455-4e39-b87f-99ea3493c20a" Title="SecurityConfig Class" Url="html/T-ModernDataServices.App.Config.SecurityConfig.htm">
+      <HelpTOCNode Title="SecurityConfig Members" Url="html/AllMembers.T-ModernDataServices.App.Config.SecurityConfig.htm" />
+      <HelpTOCNode Id="5bb02dfa-f11f-4b86-8cb0-aa87bc6925cd" Title="SecurityConfig Methods" Url="html/Methods.T-ModernDataServices.App.Config.SecurityConfig.htm">
+        <HelpTOCNode Title="UseIdentityClientConfig Method " Url="html/M-ModernDataServices.App.Config.SecurityConfig.UseIdentityClientConfig.htm" />
+        <HelpTOCNode Title="UseResourceAuthorization Method " Url="html/M-ModernDataServices.App.Config.SecurityConfig.UseResourceAuthorization.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3907cb4f-25f4-441c-ae77-e474bb32fd7c" Title="SecurityConfig.Provider Class" Url="html/T-ModernDataServices.App.Config.SecurityConfig.Provider.htm">
+      <HelpTOCNode Title="SecurityConfig.Provider Members" Url="html/AllMembers.T-ModernDataServices.App.Config.SecurityConfig.Provider.htm" />
+      <HelpTOCNode Id="419932f7-798c-46a7-b10f-91657477a701" Title="SecurityConfig.Provider Methods" Url="html/Methods.T-ModernDataServices.App.Config.SecurityConfig.Provider.htm">
+        <HelpTOCNode Id="240c7868-06b8-4e01-88cf-fad920a42306" Title="ValidateIdentity Method " Url="html/Overload-ModernDataServices.App.Config.SecurityConfig.Provider.ValidateIdentity.htm">
+          <HelpTOCNode Title="ValidateIdentity Method " Url="html/M-ModernDataServices.App.Config.SecurityConfig.Provider.ValidateIdentity.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="SecurityConfig.Provider Properties" Url="html/Properties.T-ModernDataServices.App.Config.SecurityConfig.Provider.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6570cb19-06d5-4948-af65-5c895c15501d" Title="StructureMapActivator Class" Url="html/T-ModernDataServices.App.Config.StructureMapActivator.htm">
+      <HelpTOCNode Title="StructureMapActivator Members" Url="html/AllMembers.T-ModernDataServices.App.Config.StructureMapActivator.htm" />
+      <HelpTOCNode Title="StructureMapActivator Constructor " Url="html/M-ModernDataServices.App.Config.StructureMapActivator.-ctor.htm" />
+      <HelpTOCNode Id="7ab406ff-996d-4ed7-8c2a-62cf704cd8c8" Title="StructureMapActivator Fields" Url="html/Fields.T-ModernDataServices.App.Config.StructureMapActivator.htm">
+        <HelpTOCNode Title="_container Field" Url="html/F-ModernDataServices.App.Config.StructureMapActivator._container.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e26f0971-f31e-4562-8f22-3c62001e5bbd" Title="StructureMapActivator Methods" Url="html/Methods.T-ModernDataServices.App.Config.StructureMapActivator.htm">
+        <HelpTOCNode Id="16bd44c7-ec3f-4c8c-b217-c65d6ae065a0" Title="ActivateJob Method " Url="html/Overload-ModernDataServices.App.Config.StructureMapActivator.ActivateJob.htm">
+          <HelpTOCNode Title="ActivateJob Method " Url="html/M-ModernDataServices.App.Config.StructureMapActivator.ActivateJob.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="60fc3196-d022-46e7-908c-cfc5028e5296" Title="ModernDataServices.App.Controllers Namespace" Url="html/N-ModernDataServices.App.Controllers.htm">
+    <HelpTOCNode Id="76f6817a-3068-4d2e-8b17-728993515224" Title="AddressController Class" Url="html/T-ModernDataServices.App.Controllers.AddressController.htm">
+      <HelpTOCNode Title="AddressController Members" Url="html/AllMembers.T-ModernDataServices.App.Controllers.AddressController.htm" />
+      <HelpTOCNode Title="AddressController Constructor " Url="html/M-ModernDataServices.App.Controllers.AddressController.-ctor.htm" />
+      <HelpTOCNode Id="9741a7cc-ba54-4e32-b03b-bdc655d51c5c" Title="AddressController Fields" Url="html/Fields.T-ModernDataServices.App.Controllers.AddressController.htm">
+        <HelpTOCNode Title="DalBase Field" Url="html/F-ModernDataServices.App.Controllers.AddressController.DalBase.htm" />
+        <HelpTOCNode Title="Logger Field" Url="html/F-ModernDataServices.App.Controllers.AddressController.Logger.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7a9f9e2a-3e4c-425c-b128-853b31d6164b" Title="AddressController Methods" Url="html/Methods.T-ModernDataServices.App.Controllers.AddressController.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/M-ModernDataServices.App.Controllers.AddressController.Delete.htm" />
+        <HelpTOCNode Id="855681d0-0052-4f07-822f-1e209f0f54f8" Title="Get Method " Url="html/Overload-ModernDataServices.App.Controllers.AddressController.Get.htm">
+          <HelpTOCNode Title="Get Method (Guid)" Url="html/M-ModernDataServices.App.Controllers.AddressController.Get.htm" />
+          <HelpTOCNode Title="Get Method (Guid, Int32)" Url="html/M-ModernDataServices.App.Controllers.AddressController.Get_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Post Method " Url="html/M-ModernDataServices.App.Controllers.AddressController.Post.htm" />
+        <HelpTOCNode Title="Put Method " Url="html/M-ModernDataServices.App.Controllers.AddressController.Put.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AddressController Properties" Url="html/Properties.T-ModernDataServices.App.Controllers.AddressController.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c3ae615f-0403-454a-86f4-4cb39068c1a5" Title="AppInfoController Class" Url="html/T-ModernDataServices.App.Controllers.AppInfoController.htm">
+      <HelpTOCNode Title="AppInfoController Members" Url="html/AllMembers.T-ModernDataServices.App.Controllers.AppInfoController.htm" />
+      <HelpTOCNode Id="37435597-6ac7-4381-b25a-482a7a94833f" Title="AppInfoController Methods" Url="html/Methods.T-ModernDataServices.App.Controllers.AppInfoController.htm">
+        <HelpTOCNode Title="UpTime Method " Url="html/M-ModernDataServices.App.Controllers.AppInfoController.UpTime.htm" />
+        <HelpTOCNode Title="Version Method " Url="html/M-ModernDataServices.App.Controllers.AppInfoController.Version.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AppInfoController Properties" Url="html/Properties.T-ModernDataServices.App.Controllers.AppInfoController.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a8842e29-8021-45fd-a01d-9e4e76dde0ee" Title="EmailController Class" Url="html/T-ModernDataServices.App.Controllers.EmailController.htm">
+      <HelpTOCNode Title="EmailController Members" Url="html/AllMembers.T-ModernDataServices.App.Controllers.EmailController.htm" />
+      <HelpTOCNode Title="EmailController Constructor " Url="html/M-ModernDataServices.App.Controllers.EmailController.-ctor.htm" />
+      <HelpTOCNode Id="e686dbb9-9d9c-47cc-aad7-43dc48ad9039" Title="EmailController Fields" Url="html/Fields.T-ModernDataServices.App.Controllers.EmailController.htm">
+        <HelpTOCNode Title="DalBase Field" Url="html/F-ModernDataServices.App.Controllers.EmailController.DalBase.htm" />
+        <HelpTOCNode Title="Logger Field" Url="html/F-ModernDataServices.App.Controllers.EmailController.Logger.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d4feeb0-ebdd-4527-9a21-36f837869270" Title="EmailController Methods" Url="html/Methods.T-ModernDataServices.App.Controllers.EmailController.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/M-ModernDataServices.App.Controllers.EmailController.Delete.htm" />
+        <HelpTOCNode Id="95e95f25-07da-450d-a5fe-3a4743cbdd58" Title="Get Method " Url="html/Overload-ModernDataServices.App.Controllers.EmailController.Get.htm">
+          <HelpTOCNode Title="Get Method (Guid)" Url="html/M-ModernDataServices.App.Controllers.EmailController.Get.htm" />
+          <HelpTOCNode Title="Get Method (Guid, Int32)" Url="html/M-ModernDataServices.App.Controllers.EmailController.Get_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Post Method " Url="html/M-ModernDataServices.App.Controllers.EmailController.Post.htm" />
+        <HelpTOCNode Title="Put Method " Url="html/M-ModernDataServices.App.Controllers.EmailController.Put.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EmailController Properties" Url="html/Properties.T-ModernDataServices.App.Controllers.EmailController.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4164762e-50a0-449c-9cad-fba523cd73eb" Title="PersonController Class" Url="html/T-ModernDataServices.App.Controllers.PersonController.htm">
+      <HelpTOCNode Title="PersonController Members" Url="html/AllMembers.T-ModernDataServices.App.Controllers.PersonController.htm" />
+      <HelpTOCNode Title="PersonController Constructor " Url="html/M-ModernDataServices.App.Controllers.PersonController.-ctor.htm" />
+      <HelpTOCNode Id="b6ae8fe4-82c6-418a-b03f-2b889bda974d" Title="PersonController Fields" Url="html/Fields.T-ModernDataServices.App.Controllers.PersonController.htm">
+        <HelpTOCNode Title="DalBase Field" Url="html/F-ModernDataServices.App.Controllers.PersonController.DalBase.htm" />
+        <HelpTOCNode Title="Logger Field" Url="html/F-ModernDataServices.App.Controllers.PersonController.Logger.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7f5c4737-ac0c-43a9-87c8-3a26ab30e6ce" Title="PersonController Methods" Url="html/Methods.T-ModernDataServices.App.Controllers.PersonController.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/M-ModernDataServices.App.Controllers.PersonController.Delete.htm" />
+        <HelpTOCNode Title="Get Method " Url="html/M-ModernDataServices.App.Controllers.PersonController.Get.htm" />
+        <HelpTOCNode Title="Post Method " Url="html/M-ModernDataServices.App.Controllers.PersonController.Post.htm" />
+        <HelpTOCNode Title="Put Method " Url="html/M-ModernDataServices.App.Controllers.PersonController.Put.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PersonController Properties" Url="html/Properties.T-ModernDataServices.App.Controllers.PersonController.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3690620b-33f0-479e-a647-540f0d93c4ad" Title="PhoneController Class" Url="html/T-ModernDataServices.App.Controllers.PhoneController.htm">
+      <HelpTOCNode Title="PhoneController Members" Url="html/AllMembers.T-ModernDataServices.App.Controllers.PhoneController.htm" />
+      <HelpTOCNode Title="PhoneController Constructor " Url="html/M-ModernDataServices.App.Controllers.PhoneController.-ctor.htm" />
+      <HelpTOCNode Id="ee96de64-a5c1-49f3-8e87-b2270a964c36" Title="PhoneController Fields" Url="html/Fields.T-ModernDataServices.App.Controllers.PhoneController.htm">
+        <HelpTOCNode Title="DalBase Field" Url="html/F-ModernDataServices.App.Controllers.PhoneController.DalBase.htm" />
+        <HelpTOCNode Title="Logger Field" Url="html/F-ModernDataServices.App.Controllers.PhoneController.Logger.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="04d64932-c34f-48f8-a48a-dfd506031e67" Title="PhoneController Methods" Url="html/Methods.T-ModernDataServices.App.Controllers.PhoneController.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/M-ModernDataServices.App.Controllers.PhoneController.Delete.htm" />
+        <HelpTOCNode Id="43e0388d-cc38-4d06-b5c7-c3db30b4e659" Title="Get Method " Url="html/Overload-ModernDataServices.App.Controllers.PhoneController.Get.htm">
+          <HelpTOCNode Title="Get Method (Guid)" Url="html/M-ModernDataServices.App.Controllers.PhoneController.Get.htm" />
+          <HelpTOCNode Title="Get Method (Guid, Int32)" Url="html/M-ModernDataServices.App.Controllers.PhoneController.Get_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Post Method " Url="html/M-ModernDataServices.App.Controllers.PhoneController.Post.htm" />
+        <HelpTOCNode Title="Put Method " Url="html/M-ModernDataServices.App.Controllers.PhoneController.Put.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PhoneController Properties" Url="html/Properties.T-ModernDataServices.App.Controllers.PhoneController.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e4a5fd36-1ff9-4b47-93e5-318f0153f601" Title="ValuesController Class" Url="html/T-ModernDataServices.App.Controllers.ValuesController.htm">
+      <HelpTOCNode Title="ValuesController Members" Url="html/AllMembers.T-ModernDataServices.App.Controllers.ValuesController.htm" />
+      <HelpTOCNode Id="ae823e41-cd7a-478e-9d47-1afba4f7420b" Title="ValuesController Methods" Url="html/Methods.T-ModernDataServices.App.Controllers.ValuesController.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/M-ModernDataServices.App.Controllers.ValuesController.Delete.htm" />
+        <HelpTOCNode Id="3d455944-3ffb-48f7-b225-3aac4c9f6fa3" Title="Get Method " Url="html/Overload-ModernDataServices.App.Controllers.ValuesController.Get.htm">
+          <HelpTOCNode Title="Get Method " Url="html/M-ModernDataServices.App.Controllers.ValuesController.Get.htm" />
+          <HelpTOCNode Title="Get Method (Int32)" Url="html/M-ModernDataServices.App.Controllers.ValuesController.Get_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetSecureValues Method " Url="html/M-ModernDataServices.App.Controllers.ValuesController.GetSecureValues.htm" />
+        <HelpTOCNode Title="Post Method " Url="html/M-ModernDataServices.App.Controllers.ValuesController.Post.htm" />
+        <HelpTOCNode Title="Put Method " Url="html/M-ModernDataServices.App.Controllers.ValuesController.Put.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ValuesController Properties" Url="html/Properties.T-ModernDataServices.App.Controllers.ValuesController.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5b29bffb-98e1-4e23-8988-28f544ae63b0" Title="ModernDataServices.App.Data Namespace" Url="html/N-ModernDataServices.App.Data.htm">
+    <HelpTOCNode Id="395471c3-a1d0-42d1-94f1-0366c93fca56" Title="ApplicationContext Class" Url="html/T-ModernDataServices.App.Data.ApplicationContext.htm">
+      <HelpTOCNode Title="ApplicationContext Members" Url="html/AllMembers.T-ModernDataServices.App.Data.ApplicationContext.htm" />
+      <HelpTOCNode Title="ApplicationContext Constructor " Url="html/M-ModernDataServices.App.Data.ApplicationContext.-ctor.htm" />
+      <HelpTOCNode Title="ApplicationContext Methods" Url="html/Methods.T-ModernDataServices.App.Data.ApplicationContext.htm" />
+      <HelpTOCNode Id="60903add-722a-4e22-aa73-5d1f66d12006" Title="ApplicationContext Properties" Url="html/Properties.T-ModernDataServices.App.Data.ApplicationContext.htm">
+        <HelpTOCNode Title="Addresses Property " Url="html/P-ModernDataServices.App.Data.ApplicationContext.Addresses.htm" />
+        <HelpTOCNode Title="Emails Property " Url="html/P-ModernDataServices.App.Data.ApplicationContext.Emails.htm" />
+        <HelpTOCNode Title="LogTable Property " Url="html/P-ModernDataServices.App.Data.ApplicationContext.LogTable.htm" />
+        <HelpTOCNode Title="Persons Property " Url="html/P-ModernDataServices.App.Data.ApplicationContext.Persons.htm" />
+        <HelpTOCNode Title="Phones Property " Url="html/P-ModernDataServices.App.Data.ApplicationContext.Phones.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a33a37df-52b3-412f-96d1-d780bbc368c1" Title="DalBase(TEntity) Class" Url="html/T-ModernDataServices.App.Data.DalBase-1.htm">
+      <HelpTOCNode Title="DalBase(TEntity) Members" Url="html/AllMembers.T-ModernDataServices.App.Data.DalBase-1.htm" />
+      <HelpTOCNode Title="DalBase(TEntity) Constructor " Url="html/M-ModernDataServices.App.Data.DalBase-1.-ctor.htm" />
+      <HelpTOCNode Id="b9f5942c-b56a-47c9-b522-5fc131681641" Title="DalBase(TEntity) Methods" Url="html/Methods.T-ModernDataServices.App.Data.DalBase-1.htm">
+        <HelpTOCNode Id="29e8b05a-47f5-4bd2-ad9e-71a8c043e336" Title="Add Method " Url="html/Overload-ModernDataServices.App.Data.DalBase-1.Add.htm">
+          <HelpTOCNode Title="Add Method (TEntity)" Url="html/M-ModernDataServices.App.Data.DalBase-1.Add.htm" />
+          <HelpTOCNode Title="Add Method (List(TEntity))" Url="html/M-ModernDataServices.App.Data.DalBase-1.Add_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="84add51b-6ae5-4b4d-9047-d96e34a7bfb6" Title="Delete Method " Url="html/Overload-ModernDataServices.App.Data.DalBase-1.Delete.htm">
+          <HelpTOCNode Title="Delete Method (TEntity)" Url="html/M-ModernDataServices.App.Data.DalBase-1.Delete.htm" />
+          <HelpTOCNode Title="Delete Method (List(TEntity))" Url="html/M-ModernDataServices.App.Data.DalBase-1.Delete_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="First Method " Url="html/M-ModernDataServices.App.Data.DalBase-1.First.htm" />
+        <HelpTOCNode Title="GetPersonWithChildren Method " Url="html/M-ModernDataServices.App.Data.DalBase-1.GetPersonWithChildren.htm" />
+        <HelpTOCNode Title="Last Method " Url="html/M-ModernDataServices.App.Data.DalBase-1.Last.htm" />
+        <HelpTOCNode Title="List Method " Url="html/M-ModernDataServices.App.Data.DalBase-1.List.htm" />
+        <HelpTOCNode Title="SaveChanges Method " Url="html/M-ModernDataServices.App.Data.DalBase-1.SaveChanges.htm" />
+        <HelpTOCNode Id="30fe936f-75d6-4073-8fc8-736b663f4036" Title="Update Method " Url="html/Overload-ModernDataServices.App.Data.DalBase-1.Update.htm">
+          <HelpTOCNode Title="Update Method (TEntity)" Url="html/M-ModernDataServices.App.Data.DalBase-1.Update.htm" />
+          <HelpTOCNode Title="Update Method (List(TEntity))" Url="html/M-ModernDataServices.App.Data.DalBase-1.Update_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="60091065-9ba5-42f9-95bd-e37b6ebbea9d" Title="DalBase(TEntity) Properties" Url="html/Properties.T-ModernDataServices.App.Data.DalBase-1.htm">
+        <HelpTOCNode Title="Context Property " Url="html/P-ModernDataServices.App.Data.DalBase-1.Context.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="d3ff5699-8a86-41f2-b001-87197b5297d5" Title="ModernDataServices.App.Data.Migrations Namespace" Url="html/N-ModernDataServices.App.Data.Migrations.htm">
+    <HelpTOCNode Id="d9d98c78-f1fe-45b0-a61e-b271ca6cddcb" Title="Configuration Class" Url="html/T-ModernDataServices.App.Data.Migrations.Configuration.htm">
+      <HelpTOCNode Title="Configuration Members" Url="html/AllMembers.T-ModernDataServices.App.Data.Migrations.Configuration.htm" />
+      <HelpTOCNode Title="Configuration Constructor " Url="html/M-ModernDataServices.App.Data.Migrations.Configuration.-ctor.htm" />
+      <HelpTOCNode Id="eca882d0-67b7-487f-89fe-840311a6b7ac" Title="Configuration Methods" Url="html/Methods.T-ModernDataServices.App.Data.Migrations.Configuration.htm">
+        <HelpTOCNode Id="7e5bf1cc-c6e5-46f5-b597-3a5017ca02eb" Title="Seed Method " Url="html/Overload-ModernDataServices.App.Data.Migrations.Configuration.Seed.htm">
+          <HelpTOCNode Title="Seed Method " Url="html/M-ModernDataServices.App.Data.Migrations.Configuration.Seed.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Configuration Properties" Url="html/Properties.T-ModernDataServices.App.Data.Migrations.Configuration.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9926cf43-a84b-44e3-805f-b5edf5a4ba3e" Title="InitialCreate Class" Url="html/T-ModernDataServices.App.Data.Migrations.InitialCreate.htm">
+      <HelpTOCNode Title="InitialCreate Members" Url="html/AllMembers.T-ModernDataServices.App.Data.Migrations.InitialCreate.htm" />
+      <HelpTOCNode Id="2edf7b70-2f05-41aa-9153-77b697d27c7c" Title="InitialCreate Fields" Url="html/Fields.T-ModernDataServices.App.Data.Migrations.InitialCreate.htm">
+        <HelpTOCNode Title="Resources Field" Url="html/F-ModernDataServices.App.Data.Migrations.InitialCreate.Resources.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eeab35e9-49a1-4139-863f-3471d9a6da45" Title="InitialCreate Methods" Url="html/Methods.T-ModernDataServices.App.Data.Migrations.InitialCreate.htm">
+        <HelpTOCNode Title="Down Method " Url="html/M-ModernDataServices.App.Data.Migrations.InitialCreate.Down.htm" />
+        <HelpTOCNode Title="Up Method " Url="html/M-ModernDataServices.App.Data.Migrations.InitialCreate.Up.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c7c1d044-b968-422f-a509-961cc1a125b1" Title="InitialCreate Properties" Url="html/Properties.T-ModernDataServices.App.Data.Migrations.InitialCreate.htm">
+        <HelpTOCNode Title="Id Property " Url="html/P-ModernDataServices.App.Data.Migrations.InitialCreate.Id.htm" />
+        <HelpTOCNode Title="Source Property " Url="html/P-ModernDataServices.App.Data.Migrations.InitialCreate.Source.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/P-ModernDataServices.App.Data.Migrations.InitialCreate.Target.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="862d9b79-ab8f-449d-84e1-dfd145f3973f" Title="ModernDataServices.App.Models.Data Namespace" Url="html/N-ModernDataServices.App.Models.Data.htm">
+    <HelpTOCNode Id="546e3dca-d46a-4a2d-81b0-86914ee9cb9d" Title="Address Class" Url="html/T-ModernDataServices.App.Models.Data.Address.htm">
+      <HelpTOCNode Title="Address Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Data.Address.htm" />
+      <HelpTOCNode Title="Address Methods" Url="html/Methods.T-ModernDataServices.App.Models.Data.Address.htm" />
+      <HelpTOCNode Id="7f29fdc8-8349-4114-90cc-6c6422008fe8" Title="Address Properties" Url="html/Properties.T-ModernDataServices.App.Models.Data.Address.htm">
+        <HelpTOCNode Title="City Property " Url="html/P-ModernDataServices.App.Models.Data.Address.City.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-ModernDataServices.App.Models.Data.Address.Id.htm" />
+        <HelpTOCNode Title="Line1 Property " Url="html/P-ModernDataServices.App.Models.Data.Address.Line1.htm" />
+        <HelpTOCNode Title="Line2 Property " Url="html/P-ModernDataServices.App.Models.Data.Address.Line2.htm" />
+        <HelpTOCNode Title="Person Property " Url="html/P-ModernDataServices.App.Models.Data.Address.Person.htm" />
+        <HelpTOCNode Title="State Property " Url="html/P-ModernDataServices.App.Models.Data.Address.State.htm" />
+        <HelpTOCNode Title="ZipCode Property " Url="html/P-ModernDataServices.App.Models.Data.Address.ZipCode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="77a51ceb-cbd8-4046-a47c-9dbd4b891370" Title="Email Class" Url="html/T-ModernDataServices.App.Models.Data.Email.htm">
+      <HelpTOCNode Title="Email Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Data.Email.htm" />
+      <HelpTOCNode Title="Email Methods" Url="html/Methods.T-ModernDataServices.App.Models.Data.Email.htm" />
+      <HelpTOCNode Id="d9ce8e11-5409-48f3-b654-2b6ba9e65ab1" Title="Email Properties" Url="html/Properties.T-ModernDataServices.App.Models.Data.Email.htm">
+        <HelpTOCNode Title="Address Property " Url="html/P-ModernDataServices.App.Models.Data.Email.Address.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-ModernDataServices.App.Models.Data.Email.Id.htm" />
+        <HelpTOCNode Title="Person Property " Url="html/P-ModernDataServices.App.Models.Data.Email.Person.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8612fb3d-11c8-44ba-9636-a101c96ebdfa" Title="LogTable Class" Url="html/T-ModernDataServices.App.Models.Data.LogTable.htm">
+      <HelpTOCNode Title="LogTable Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Data.LogTable.htm" />
+      <HelpTOCNode Title="LogTable Methods" Url="html/Methods.T-ModernDataServices.App.Models.Data.LogTable.htm" />
+      <HelpTOCNode Id="28d64e92-b126-4534-98aa-1ecdc630b84c" Title="LogTable Properties" Url="html/Properties.T-ModernDataServices.App.Models.Data.LogTable.htm">
+        <HelpTOCNode Title="ApplicationName Property " Url="html/P-ModernDataServices.App.Models.Data.LogTable.ApplicationName.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-ModernDataServices.App.Models.Data.LogTable.Id.htm" />
+        <HelpTOCNode Title="Level Property " Url="html/P-ModernDataServices.App.Models.Data.LogTable.Level.htm" />
+        <HelpTOCNode Title="Logger Property " Url="html/P-ModernDataServices.App.Models.Data.LogTable.Logger.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/P-ModernDataServices.App.Models.Data.LogTable.Message.htm" />
+        <HelpTOCNode Title="Time_Stamp Property " Url="html/P-ModernDataServices.App.Models.Data.LogTable.Time_Stamp.htm" />
+        <HelpTOCNode Title="Verbose Property " Url="html/P-ModernDataServices.App.Models.Data.LogTable.Verbose.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="45266075-40e1-4cfc-8c41-f6307f28738f" Title="Person Class" Url="html/T-ModernDataServices.App.Models.Data.Person.htm">
+      <HelpTOCNode Title="Person Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Data.Person.htm" />
+      <HelpTOCNode Title="Person Methods" Url="html/Methods.T-ModernDataServices.App.Models.Data.Person.htm" />
+      <HelpTOCNode Id="43a08023-37b3-4da1-a6af-8564cb18a73d" Title="Person Properties" Url="html/Properties.T-ModernDataServices.App.Models.Data.Person.htm">
+        <HelpTOCNode Title="Addresses Property " Url="html/P-ModernDataServices.App.Models.Data.Person.Addresses.htm" />
+        <HelpTOCNode Title="BirthDate Property " Url="html/P-ModernDataServices.App.Models.Data.Person.BirthDate.htm" />
+        <HelpTOCNode Title="EmailAddresses Property " Url="html/P-ModernDataServices.App.Models.Data.Person.EmailAddresses.htm" />
+        <HelpTOCNode Title="FirstName Property " Url="html/P-ModernDataServices.App.Models.Data.Person.FirstName.htm" />
+        <HelpTOCNode Title="LastName Property " Url="html/P-ModernDataServices.App.Models.Data.Person.LastName.htm" />
+        <HelpTOCNode Title="PersonId Property " Url="html/P-ModernDataServices.App.Models.Data.Person.PersonId.htm" />
+        <HelpTOCNode Title="Phones Property " Url="html/P-ModernDataServices.App.Models.Data.Person.Phones.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="88f0b945-90b5-4691-90a6-3674c8734dca" Title="Phone Class" Url="html/T-ModernDataServices.App.Models.Data.Phone.htm">
+      <HelpTOCNode Title="Phone Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Data.Phone.htm" />
+      <HelpTOCNode Title="Phone Methods" Url="html/Methods.T-ModernDataServices.App.Models.Data.Phone.htm" />
+      <HelpTOCNode Id="76c536e9-2eb1-4fb5-9dde-f3ce53327b49" Title="Phone Properties" Url="html/Properties.T-ModernDataServices.App.Models.Data.Phone.htm">
+        <HelpTOCNode Title="AreaCode Property " Url="html/P-ModernDataServices.App.Models.Data.Phone.AreaCode.htm" />
+        <HelpTOCNode Title="Extension Property " Url="html/P-ModernDataServices.App.Models.Data.Phone.Extension.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-ModernDataServices.App.Models.Data.Phone.Id.htm" />
+        <HelpTOCNode Title="Number Property " Url="html/P-ModernDataServices.App.Models.Data.Phone.Number.htm" />
+        <HelpTOCNode Title="Person Property " Url="html/P-ModernDataServices.App.Models.Data.Phone.Person.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="6d164196-483e-4374-ba6a-e88e34e793a4" Title="ModernDataServices.App.Models.Extensions Namespace" Url="html/N-ModernDataServices.App.Models.Extensions.htm">
+    <HelpTOCNode Id="724063d4-b6ec-4900-8327-db27a25dcc18" Title="AddressCollectionExtension Class" Url="html/T-ModernDataServices.App.Models.Extensions.AddressCollectionExtension.htm">
+      <HelpTOCNode Title="AddressCollectionExtension Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Extensions.AddressCollectionExtension.htm" />
+      <HelpTOCNode Id="8bafc17a-1ea7-4435-bbfe-9eda73ce1e92" Title="AddressCollectionExtension Methods" Url="html/Methods.T-ModernDataServices.App.Models.Extensions.AddressCollectionExtension.htm">
+        <HelpTOCNode Title="ToResources Method " Url="html/M-ModernDataServices.App.Models.Extensions.AddressCollectionExtension.ToResources.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d3842a2e-3316-4688-bd1f-aa66b701f8b1" Title="AddressExtension Class" Url="html/T-ModernDataServices.App.Models.Extensions.AddressExtension.htm">
+      <HelpTOCNode Title="AddressExtension Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Extensions.AddressExtension.htm" />
+      <HelpTOCNode Id="85589046-2e02-4de5-b087-6d68138920bd" Title="AddressExtension Methods" Url="html/Methods.T-ModernDataServices.App.Models.Extensions.AddressExtension.htm">
+        <HelpTOCNode Title="ToResource Method " Url="html/M-ModernDataServices.App.Models.Extensions.AddressExtension.ToResource.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e8ce33de-1587-4736-9bff-64bb068c3c81" Title="EmailCollectionExtension Class" Url="html/T-ModernDataServices.App.Models.Extensions.EmailCollectionExtension.htm">
+      <HelpTOCNode Title="EmailCollectionExtension Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Extensions.EmailCollectionExtension.htm" />
+      <HelpTOCNode Id="b494dc6c-0806-44cb-968d-a64a7bfd48d0" Title="EmailCollectionExtension Methods" Url="html/Methods.T-ModernDataServices.App.Models.Extensions.EmailCollectionExtension.htm">
+        <HelpTOCNode Title="ToResources Method " Url="html/M-ModernDataServices.App.Models.Extensions.EmailCollectionExtension.ToResources.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ad294ab6-7f5a-40d4-9450-23757f501c69" Title="EmailExtension Class" Url="html/T-ModernDataServices.App.Models.Extensions.EmailExtension.htm">
+      <HelpTOCNode Title="EmailExtension Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Extensions.EmailExtension.htm" />
+      <HelpTOCNode Id="c8642440-64ab-4b75-bfd3-66b001b02261" Title="EmailExtension Methods" Url="html/Methods.T-ModernDataServices.App.Models.Extensions.EmailExtension.htm">
+        <HelpTOCNode Title="ToResource Method " Url="html/M-ModernDataServices.App.Models.Extensions.EmailExtension.ToResource.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="20f3d483-fdaa-48a7-ac2e-33ed3a0bda97" Title="PersonExtension Class" Url="html/T-ModernDataServices.App.Models.Extensions.PersonExtension.htm">
+      <HelpTOCNode Title="PersonExtension Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Extensions.PersonExtension.htm" />
+      <HelpTOCNode Id="ca5ec558-4b1b-4870-bff8-9896fde6e426" Title="PersonExtension Methods" Url="html/Methods.T-ModernDataServices.App.Models.Extensions.PersonExtension.htm">
+        <HelpTOCNode Title="ToResource Method " Url="html/M-ModernDataServices.App.Models.Extensions.PersonExtension.ToResource.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4863407b-440d-4b0b-a180-2bc19c07ef9f" Title="PhoneCollectionExtension Class" Url="html/T-ModernDataServices.App.Models.Extensions.PhoneCollectionExtension.htm">
+      <HelpTOCNode Title="PhoneCollectionExtension Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Extensions.PhoneCollectionExtension.htm" />
+      <HelpTOCNode Id="e381d158-0162-4e70-9c38-ef2529731270" Title="PhoneCollectionExtension Methods" Url="html/Methods.T-ModernDataServices.App.Models.Extensions.PhoneCollectionExtension.htm">
+        <HelpTOCNode Title="ToResources Method " Url="html/M-ModernDataServices.App.Models.Extensions.PhoneCollectionExtension.ToResources.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3f22953f-726b-43eb-9926-6cffc449e56e" Title="PhoneExtension Class" Url="html/T-ModernDataServices.App.Models.Extensions.PhoneExtension.htm">
+      <HelpTOCNode Title="PhoneExtension Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Extensions.PhoneExtension.htm" />
+      <HelpTOCNode Id="c17af35c-d50c-4e3a-a571-7dda2a1cca5f" Title="PhoneExtension Methods" Url="html/Methods.T-ModernDataServices.App.Models.Extensions.PhoneExtension.htm">
+        <HelpTOCNode Title="ToResource Method " Url="html/M-ModernDataServices.App.Models.Extensions.PhoneExtension.ToResource.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="401bca4a-8a42-4aae-8b69-5d92d556ec24" Title="ModernDataServices.App.Models.Resources Namespace" Url="html/N-ModernDataServices.App.Models.Resources.htm">
+    <HelpTOCNode Id="fd804b38-1714-4091-89b8-cb754b5edd53" Title="AddressResource Class" Url="html/T-ModernDataServices.App.Models.Resources.AddressResource.htm">
+      <HelpTOCNode Title="AddressResource Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Resources.AddressResource.htm" />
+      <HelpTOCNode Title="AddressResource Methods" Url="html/Methods.T-ModernDataServices.App.Models.Resources.AddressResource.htm" />
+      <HelpTOCNode Id="76e8f527-b585-47b6-905a-dda9bb8acac1" Title="AddressResource Properties" Url="html/Properties.T-ModernDataServices.App.Models.Resources.AddressResource.htm">
+        <HelpTOCNode Title="City Property " Url="html/P-ModernDataServices.App.Models.Resources.AddressResource.City.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-ModernDataServices.App.Models.Resources.AddressResource.Id.htm" />
+        <HelpTOCNode Title="Line1 Property " Url="html/P-ModernDataServices.App.Models.Resources.AddressResource.Line1.htm" />
+        <HelpTOCNode Title="Line2 Property " Url="html/P-ModernDataServices.App.Models.Resources.AddressResource.Line2.htm" />
+        <HelpTOCNode Title="Links Property " Url="html/P-ModernDataServices.App.Models.Resources.AddressResource.Links.htm" />
+        <HelpTOCNode Title="State Property " Url="html/P-ModernDataServices.App.Models.Resources.AddressResource.State.htm" />
+        <HelpTOCNode Title="ZipCode Property " Url="html/P-ModernDataServices.App.Models.Resources.AddressResource.ZipCode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4eb00c0c-b289-4ec5-a038-c012ecda928c" Title="CollectionResource(T) Class" Url="html/T-ModernDataServices.App.Models.Resources.CollectionResource-1.htm">
+      <HelpTOCNode Title="CollectionResource(T) Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Resources.CollectionResource-1.htm" />
+      <HelpTOCNode Title="CollectionResource(T) Methods" Url="html/Methods.T-ModernDataServices.App.Models.Resources.CollectionResource-1.htm" />
+      <HelpTOCNode Id="7fd8dce6-fa36-4bea-b296-e808f7a98284" Title="CollectionResource(T) Properties" Url="html/Properties.T-ModernDataServices.App.Models.Resources.CollectionResource-1.htm">
+        <HelpTOCNode Title="Collection Property " Url="html/P-ModernDataServices.App.Models.Resources.CollectionResource-1.Collection.htm" />
+        <HelpTOCNode Title="Links Property " Url="html/P-ModernDataServices.App.Models.Resources.CollectionResource-1.Links.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="998e8867-687e-4801-9763-7999a933b07b" Title="EmailResource Class" Url="html/T-ModernDataServices.App.Models.Resources.EmailResource.htm">
+      <HelpTOCNode Title="EmailResource Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Resources.EmailResource.htm" />
+      <HelpTOCNode Title="EmailResource Methods" Url="html/Methods.T-ModernDataServices.App.Models.Resources.EmailResource.htm" />
+      <HelpTOCNode Id="0f97e788-8d72-46d9-b0f3-fd8879301c9f" Title="EmailResource Properties" Url="html/Properties.T-ModernDataServices.App.Models.Resources.EmailResource.htm">
+        <HelpTOCNode Title="Address Property " Url="html/P-ModernDataServices.App.Models.Resources.EmailResource.Address.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-ModernDataServices.App.Models.Resources.EmailResource.Id.htm" />
+        <HelpTOCNode Title="Links Property " Url="html/P-ModernDataServices.App.Models.Resources.EmailResource.Links.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a4b54bd3-3117-45bc-aa66-9e65a17e77e6" Title="Link Class" Url="html/T-ModernDataServices.App.Models.Resources.Link.htm">
+      <HelpTOCNode Title="Link Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Resources.Link.htm" />
+      <HelpTOCNode Title="Link Methods" Url="html/Methods.T-ModernDataServices.App.Models.Resources.Link.htm" />
+      <HelpTOCNode Id="92ca2b62-4581-4301-af36-edd1796e7dfc" Title="Link Properties" Url="html/Properties.T-ModernDataServices.App.Models.Resources.Link.htm">
+        <HelpTOCNode Title="Href Property " Url="html/P-ModernDataServices.App.Models.Resources.Link.Href.htm" />
+        <HelpTOCNode Title="Method Property " Url="html/P-ModernDataServices.App.Models.Resources.Link.Method.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-ModernDataServices.App.Models.Resources.Link.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bbe92b3b-c526-4f64-a1e9-caf44780bf61" Title="PersonResource Class" Url="html/T-ModernDataServices.App.Models.Resources.PersonResource.htm">
+      <HelpTOCNode Title="PersonResource Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Resources.PersonResource.htm" />
+      <HelpTOCNode Title="PersonResource Methods" Url="html/Methods.T-ModernDataServices.App.Models.Resources.PersonResource.htm" />
+      <HelpTOCNode Id="5c1d1dec-4bce-41fa-88b6-21e964a26611" Title="PersonResource Properties" Url="html/Properties.T-ModernDataServices.App.Models.Resources.PersonResource.htm">
+        <HelpTOCNode Title="Addresses Property " Url="html/P-ModernDataServices.App.Models.Resources.PersonResource.Addresses.htm" />
+        <HelpTOCNode Title="BirthDate Property " Url="html/P-ModernDataServices.App.Models.Resources.PersonResource.BirthDate.htm" />
+        <HelpTOCNode Title="EmailAddresses Property " Url="html/P-ModernDataServices.App.Models.Resources.PersonResource.EmailAddresses.htm" />
+        <HelpTOCNode Title="FirstName Property " Url="html/P-ModernDataServices.App.Models.Resources.PersonResource.FirstName.htm" />
+        <HelpTOCNode Title="LastName Property " Url="html/P-ModernDataServices.App.Models.Resources.PersonResource.LastName.htm" />
+        <HelpTOCNode Title="Links Property " Url="html/P-ModernDataServices.App.Models.Resources.PersonResource.Links.htm" />
+        <HelpTOCNode Title="PersonId Property " Url="html/P-ModernDataServices.App.Models.Resources.PersonResource.PersonId.htm" />
+        <HelpTOCNode Title="Phones Property " Url="html/P-ModernDataServices.App.Models.Resources.PersonResource.Phones.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b4f4e39a-9beb-40d0-aae6-20a1f081f1e3" Title="PhoneResource Class" Url="html/T-ModernDataServices.App.Models.Resources.PhoneResource.htm">
+      <HelpTOCNode Title="PhoneResource Members" Url="html/AllMembers.T-ModernDataServices.App.Models.Resources.PhoneResource.htm" />
+      <HelpTOCNode Title="PhoneResource Methods" Url="html/Methods.T-ModernDataServices.App.Models.Resources.PhoneResource.htm" />
+      <HelpTOCNode Id="9d19f088-ac11-4c69-88c9-a2d182278966" Title="PhoneResource Properties" Url="html/Properties.T-ModernDataServices.App.Models.Resources.PhoneResource.htm">
+        <HelpTOCNode Title="AreaCode Property " Url="html/P-ModernDataServices.App.Models.Resources.PhoneResource.AreaCode.htm" />
+        <HelpTOCNode Title="Extension Property " Url="html/P-ModernDataServices.App.Models.Resources.PhoneResource.Extension.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-ModernDataServices.App.Models.Resources.PhoneResource.Id.htm" />
+        <HelpTOCNode Title="Links Property " Url="html/P-ModernDataServices.App.Models.Resources.PhoneResource.Links.htm" />
+        <HelpTOCNode Title="Number Property " Url="html/P-ModernDataServices.App.Models.Resources.PhoneResource.Number.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b010dafc-8bf5-46f0-bd52-036cfb81b452" Title="ModernDataServices.MVC.Host Namespace" Url="html/N-ModernDataServices.MVC.Host.htm">
+    <HelpTOCNode Id="60fa3dd5-b5cc-4044-906a-3054151b25e6" Title="AuthorizationManager Class" Url="html/T-ModernDataServices.MVC.Host.AuthorizationManager.htm">
+      <HelpTOCNode Title="AuthorizationManager Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.AuthorizationManager.htm" />
+      <HelpTOCNode Id="e5ab6556-91fa-4303-a2e2-cc097da84549" Title="AuthorizationManager Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.AuthorizationManager.htm">
+        <HelpTOCNode Title="AuthorizeContactDetails Method " Url="html/M-ModernDataServices.MVC.Host.AuthorizationManager.AuthorizeContactDetails.htm" />
+        <HelpTOCNode Id="d16e0046-90d0-420c-9978-5f47ef787ee9" Title="CheckAccessAsync Method " Url="html/Overload-ModernDataServices.MVC.Host.AuthorizationManager.CheckAccessAsync.htm">
+          <HelpTOCNode Title="CheckAccessAsync Method " Url="html/M-ModernDataServices.MVC.Host.AuthorizationManager.CheckAccessAsync.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eb230ced-4c08-4824-8fe1-eaf6c6703e15" Title="BundleConfig Class" Url="html/T-ModernDataServices.MVC.Host.BundleConfig.htm">
+      <HelpTOCNode Title="BundleConfig Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.BundleConfig.htm" />
+      <HelpTOCNode Id="21bf10b6-3eca-462e-aaf9-0faca8c6efdc" Title="BundleConfig Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.BundleConfig.htm">
+        <HelpTOCNode Title="RegisterBundles Method " Url="html/M-ModernDataServices.MVC.Host.BundleConfig.RegisterBundles.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9ae731e9-70ad-484a-bb1a-777fb9b2149f" Title="FilterConfig Class" Url="html/T-ModernDataServices.MVC.Host.FilterConfig.htm">
+      <HelpTOCNode Title="FilterConfig Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.FilterConfig.htm" />
+      <HelpTOCNode Id="f39f2d12-f07f-48b7-8ad9-3f0e80f6de50" Title="FilterConfig Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.FilterConfig.htm">
+        <HelpTOCNode Title="RegisterGlobalFilters Method " Url="html/M-ModernDataServices.MVC.Host.FilterConfig.RegisterGlobalFilters.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c1bf50df-c31a-4f26-958c-7263c7e60e21" Title="RouteConfig Class" Url="html/T-ModernDataServices.MVC.Host.RouteConfig.htm">
+      <HelpTOCNode Title="RouteConfig Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.RouteConfig.htm" />
+      <HelpTOCNode Id="14e92f04-8112-42d7-b30c-3d598d55c48d" Title="RouteConfig Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.RouteConfig.htm">
+        <HelpTOCNode Title="RegisterRoutes Method " Url="html/M-ModernDataServices.MVC.Host.RouteConfig.RegisterRoutes.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="95264acc-fb9c-4e30-bf0d-81389758fbfc" Title="Startup Class" Url="html/T-ModernDataServices.MVC.Host.Startup.htm">
+      <HelpTOCNode Title="Startup Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Startup.htm" />
+      <HelpTOCNode Id="f953ff28-c398-469a-9d14-eb2648c6292d" Title="Startup Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Startup.htm">
+        <HelpTOCNode Title="Configuration Method " Url="html/M-ModernDataServices.MVC.Host.Startup.Configuration.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0a936ffc-df72-43fe-a4e8-9207911cae00" Title="WebApiApplication Class" Url="html/T-ModernDataServices.MVC.Host.WebApiApplication.htm">
+      <HelpTOCNode Title="WebApiApplication Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.WebApiApplication.htm" />
+      <HelpTOCNode Id="8bb3c65f-25a5-4918-8afa-516ac98361c9" Title="WebApiApplication Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.WebApiApplication.htm">
+        <HelpTOCNode Title="Application_Start Method " Url="html/M-ModernDataServices.MVC.Host.WebApiApplication.Application_Start.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WebApiApplication Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.WebApiApplication.htm" />
+      <HelpTOCNode Title="WebApiApplication Events" Url="html/Events.T-ModernDataServices.MVC.Host.WebApiApplication.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fd2db4b9-cc0c-4712-ac8e-10eecdc94c1a" Title="WebApiConfig Class" Url="html/T-ModernDataServices.MVC.Host.WebApiConfig.htm">
+      <HelpTOCNode Title="WebApiConfig Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.WebApiConfig.htm" />
+      <HelpTOCNode Id="89aa0276-18b6-40b4-9460-d20cc58eabea" Title="WebApiConfig Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.WebApiConfig.htm">
+        <HelpTOCNode Title="Register Method " Url="html/M-ModernDataServices.MVC.Host.WebApiConfig.Register.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="fefe0466-a777-4659-a076-a8cd773d6f7b" Title="ModernDataServices.MVC.Host.Areas.HelpPage Namespace" Url="html/N-ModernDataServices.MVC.Host.Areas.HelpPage.htm">
+    <HelpTOCNode Id="264eb5a2-7732-4f6f-87b6-eafa6d038cf9" Title="ApiDescriptionExtensions Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ApiDescriptionExtensions.htm">
+      <HelpTOCNode Title="ApiDescriptionExtensions Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ApiDescriptionExtensions.htm" />
+      <HelpTOCNode Id="441b95dc-60b4-447a-8192-4ed270c4fab4" Title="ApiDescriptionExtensions Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ApiDescriptionExtensions.htm">
+        <HelpTOCNode Title="GetFriendlyId Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ApiDescriptionExtensions.GetFriendlyId.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="90b1885f-0e6d-4feb-9852-b7e79267245e" Title="HelpPageAreaRegistration Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageAreaRegistration.htm">
+      <HelpTOCNode Title="HelpPageAreaRegistration Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageAreaRegistration.htm" />
+      <HelpTOCNode Id="60785be4-0b4f-4926-9374-ff16e0872b55" Title="HelpPageAreaRegistration Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageAreaRegistration.htm">
+        <HelpTOCNode Id="90b8449d-6b4e-41bb-b0f5-8757307842c2" Title="RegisterArea Method " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageAreaRegistration.RegisterArea.htm">
+          <HelpTOCNode Title="RegisterArea Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageAreaRegistration.RegisterArea.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="860593eb-35c7-45a8-adce-2f48c9c9c318" Title="HelpPageAreaRegistration Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageAreaRegistration.htm">
+        <HelpTOCNode Title="AreaName Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageAreaRegistration.AreaName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ef54fbdd-6d6b-4959-8803-7906df638d24" Title="HelpPageConfig Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfig.htm">
+      <HelpTOCNode Title="HelpPageConfig Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfig.htm" />
+      <HelpTOCNode Id="96b0ea27-aebc-4567-bd20-1ab1951e1cc2" Title="HelpPageConfig Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfig.htm">
+        <HelpTOCNode Title="Register Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfig.Register.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e026c2e9-5f78-4bef-8853-327dba77fd57" Title="HelpPageConfigurationExtensions Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.htm">
+      <HelpTOCNode Title="HelpPageConfigurationExtensions Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.htm" />
+      <HelpTOCNode Id="871314ce-3a5f-4e00-94d0-8fe024cad5c6" Title="HelpPageConfigurationExtensions Fields" Url="html/Fields.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.htm">
+        <HelpTOCNode Title="ApiModelPrefix Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.ApiModelPrefix.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="70cc1986-9f29-4fe5-b95f-7e485f00b310" Title="HelpPageConfigurationExtensions Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.htm">
+        <HelpTOCNode Title="AddParameterDescription Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.AddParameterDescription.htm" />
+        <HelpTOCNode Title="GenerateApiModel Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.GenerateApiModel.htm" />
+        <HelpTOCNode Title="GenerateRequestModelDescription Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.GenerateRequestModelDescription.htm" />
+        <HelpTOCNode Title="GenerateResourceDescription Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.GenerateResourceDescription.htm" />
+        <HelpTOCNode Title="GenerateSamples Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.GenerateSamples.htm" />
+        <HelpTOCNode Title="GenerateUriParameters Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.GenerateUriParameters.htm" />
+        <HelpTOCNode Title="GetHelpPageApiModel Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageApiModel.htm" />
+        <HelpTOCNode Title="GetHelpPageSampleGenerator Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageSampleGenerator.htm" />
+        <HelpTOCNode Title="GetModelDescriptionGenerator Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.GetModelDescriptionGenerator.htm" />
+        <HelpTOCNode Title="InitializeModelDescriptionGenerator Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.InitializeModelDescriptionGenerator.htm" />
+        <HelpTOCNode Title="IsBindableWithTypeConverter Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.IsBindableWithTypeConverter.htm" />
+        <HelpTOCNode Title="LogInvalidSampleAsError Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.LogInvalidSampleAsError.htm" />
+        <HelpTOCNode Id="61dc76b5-99cb-4c01-ad5d-a365a52bb608" Title="SetActualRequestType Method " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType.htm">
+          <HelpTOCNode Title="SetActualRequestType Method (HttpConfiguration, Type, String, String)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType.htm" />
+          <HelpTOCNode Title="SetActualRequestType Method (HttpConfiguration, Type, String, String, String[])" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="386af687-83bc-4cb7-b2e7-63554f6d3b32" Title="SetActualResponseType Method " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType.htm">
+          <HelpTOCNode Title="SetActualResponseType Method (HttpConfiguration, Type, String, String)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType.htm" />
+          <HelpTOCNode Title="SetActualResponseType Method (HttpConfiguration, Type, String, String, String[])" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetDocumentationProvider Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetDocumentationProvider.htm" />
+        <HelpTOCNode Title="SetHelpPageSampleGenerator Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetHelpPageSampleGenerator.htm" />
+        <HelpTOCNode Title="SetSampleForMediaType Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForMediaType.htm" />
+        <HelpTOCNode Title="SetSampleForType Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForType.htm" />
+        <HelpTOCNode Title="SetSampleObjects Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleObjects.htm" />
+        <HelpTOCNode Id="7507e6dd-08c0-49df-afbe-62089a7c8530" Title="SetSampleRequest Method " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest.htm">
+          <HelpTOCNode Title="SetSampleRequest Method (HttpConfiguration, Object, MediaTypeHeaderValue, String, String)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest.htm" />
+          <HelpTOCNode Title="SetSampleRequest Method (HttpConfiguration, Object, MediaTypeHeaderValue, String, String, String[])" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ec026efd-58cf-4d29-bffe-f812602a05a0" Title="SetSampleResponse Method " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse.htm">
+          <HelpTOCNode Title="SetSampleResponse Method (HttpConfiguration, Object, MediaTypeHeaderValue, String, String)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse.htm" />
+          <HelpTOCNode Title="SetSampleResponse Method (HttpConfiguration, Object, MediaTypeHeaderValue, String, String, String[])" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TryGetResourceParameter Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageConfigurationExtensions.TryGetResourceParameter.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="41b2b1ff-23b1-4522-b3e6-88b50cfbd227" Title="HelpPageSampleGenerator Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.htm">
+      <HelpTOCNode Title="HelpPageSampleGenerator Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.htm" />
+      <HelpTOCNode Title="HelpPageSampleGenerator Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.-ctor.htm" />
+      <HelpTOCNode Id="26756f7f-2303-4599-93d4-303caa7cc598" Title="HelpPageSampleGenerator Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.htm">
+        <HelpTOCNode Title="DefaultSampleObjectFactory Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory.htm" />
+        <HelpTOCNode Title="GetActionSample Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.GetActionSample.htm" />
+        <HelpTOCNode Title="GetAllActionSamples Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.GetAllActionSamples.htm" />
+        <HelpTOCNode Title="GetSample Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.GetSample.htm" />
+        <HelpTOCNode Title="GetSampleObject Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.GetSampleObject.htm" />
+        <HelpTOCNode Title="GetSampleRequests Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.GetSampleRequests.htm" />
+        <HelpTOCNode Title="GetSampleResponses Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.GetSampleResponses.htm" />
+        <HelpTOCNode Title="IsFormatSupported Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.IsFormatSupported.htm" />
+        <HelpTOCNode Title="ResolveHttpRequestMessageType Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.ResolveHttpRequestMessageType.htm" />
+        <HelpTOCNode Title="ResolveType Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.ResolveType.htm" />
+        <HelpTOCNode Title="TryFormatJson Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.TryFormatJson.htm" />
+        <HelpTOCNode Title="TryFormatXml Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.TryFormatXml.htm" />
+        <HelpTOCNode Title="UnwrapException Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.UnwrapException.htm" />
+        <HelpTOCNode Title="WrapSampleIfString Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.WrapSampleIfString.htm" />
+        <HelpTOCNode Title="WriteSampleObjectUsingFormatter Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.WriteSampleObjectUsingFormatter.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f4e9f2a7-795f-4219-ae14-58ed99047b84" Title="HelpPageSampleGenerator Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.htm">
+        <HelpTOCNode Title="ActionSamples Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples.htm" />
+        <HelpTOCNode Title="ActualHttpMessageTypes Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.ActualHttpMessageTypes.htm" />
+        <HelpTOCNode Title="SampleObjectFactories Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.SampleObjectFactories.htm" />
+        <HelpTOCNode Title="SampleObjects Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="73d4aedb-738e-4360-956e-aa75f1ff11d7" Title="HelpPageSampleKey Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.htm">
+      <HelpTOCNode Title="HelpPageSampleKey Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.htm" />
+      <HelpTOCNode Id="87484ca4-0d24-444f-b361-15034c1f20fa" Title="HelpPageSampleKey Constructor " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.-ctor.htm">
+        <HelpTOCNode Title="HelpPageSampleKey Constructor (MediaTypeHeaderValue)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.-ctor.htm" />
+        <HelpTOCNode Title="HelpPageSampleKey Constructor (MediaTypeHeaderValue, Type)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.-ctor_1.htm" />
+        <HelpTOCNode Title="HelpPageSampleKey Constructor (SampleDirection, String, String, IEnumerable(String))" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.-ctor_2.htm" />
+        <HelpTOCNode Title="HelpPageSampleKey Constructor (MediaTypeHeaderValue, SampleDirection, String, String, IEnumerable(String))" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="19e40756-c902-4dc3-bb2a-a368333067b5" Title="HelpPageSampleKey Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.Equals.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.GetHashCode.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7cccd9f9-bf39-45be-9019-7bd1fbd5e6bc" Title="HelpPageSampleKey Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.htm">
+        <HelpTOCNode Title="ActionName Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.ActionName.htm" />
+        <HelpTOCNode Title="ControllerName Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.ControllerName.htm" />
+        <HelpTOCNode Title="MediaType Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.MediaType.htm" />
+        <HelpTOCNode Title="ParameterNames Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.ParameterNames.htm" />
+        <HelpTOCNode Title="ParameterType Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.ParameterType.htm" />
+        <HelpTOCNode Title="SampleDirection Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.HelpPageSampleKey.SampleDirection.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9df0df3c-1f47-4544-ad31-316aef29708f" Title="ImageSample Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ImageSample.htm">
+      <HelpTOCNode Title="ImageSample Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ImageSample.htm" />
+      <HelpTOCNode Title="ImageSample Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ImageSample.-ctor.htm" />
+      <HelpTOCNode Id="1f182700-c3c7-46a3-b62c-b12d16ca9de1" Title="ImageSample Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ImageSample.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ImageSample.Equals.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ImageSample.GetHashCode.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ImageSample.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f7af639a-b293-4116-b797-ea67df7e6d94" Title="ImageSample Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ImageSample.htm">
+        <HelpTOCNode Title="Src Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ImageSample.Src.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eee3b397-c87a-45f1-8318-be7626063dee" Title="InvalidSample Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.InvalidSample.htm">
+      <HelpTOCNode Title="InvalidSample Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.InvalidSample.htm" />
+      <HelpTOCNode Title="InvalidSample Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.InvalidSample.-ctor.htm" />
+      <HelpTOCNode Id="2aca0898-9964-48fb-aa29-d0c428ca26d2" Title="InvalidSample Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.InvalidSample.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.InvalidSample.Equals.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.InvalidSample.GetHashCode.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.InvalidSample.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a935716a-ab5c-4553-bc88-7f80ba54cde3" Title="InvalidSample Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.InvalidSample.htm">
+        <HelpTOCNode Title="ErrorMessage Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.InvalidSample.ErrorMessage.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fd80599a-dcfb-4526-ad94-254fd875b9c8" Title="ObjectGenerator Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.htm">
+      <HelpTOCNode Title="ObjectGenerator Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.htm" />
+      <HelpTOCNode Id="ab7964bd-9bea-43ef-a650-d36920bf1a7e" Title="ObjectGenerator Fields" Url="html/Fields.T-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.htm">
+        <HelpTOCNode Title="DefaultCollectionSize Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.DefaultCollectionSize.htm" />
+        <HelpTOCNode Title="SimpleObjectGenerator Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.SimpleObjectGenerator.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d11f6047-1884-40f0-9998-7d11eb81ba1f" Title="ObjectGenerator Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.htm">
+        <HelpTOCNode Title="GenerateArray Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateArray.htm" />
+        <HelpTOCNode Title="GenerateCollection Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateCollection.htm" />
+        <HelpTOCNode Title="GenerateComplexObject Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateComplexObject.htm" />
+        <HelpTOCNode Title="GenerateDictionary Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateDictionary.htm" />
+        <HelpTOCNode Title="GenerateEnum Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateEnum.htm" />
+        <HelpTOCNode Title="GenerateGenericType Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateGenericType.htm" />
+        <HelpTOCNode Title="GenerateKeyValuePair Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateKeyValuePair.htm" />
+        <HelpTOCNode Title="GenerateNullable Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateNullable.htm" />
+        <HelpTOCNode Id="b3945721-324e-463a-89d9-63f42d4c17cd" Title="GenerateObject Method " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateObject.htm">
+          <HelpTOCNode Title="GenerateObject Method (Type)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateObject.htm" />
+          <HelpTOCNode Title="GenerateObject Method (Type, Dictionary(Type, Object))" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateObject_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GenerateQueryable Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateQueryable.htm" />
+        <HelpTOCNode Title="GenerateTuple Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.GenerateTuple.htm" />
+        <HelpTOCNode Title="IsTuple Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.IsTuple.htm" />
+        <HelpTOCNode Title="SetPublicFields Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.SetPublicFields.htm" />
+        <HelpTOCNode Title="SetPublicProperties Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.SetPublicProperties.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6ead25e-2877-4b1d-97de-54972070431b" Title="ObjectGenerator.SimpleTypeObjectGenerator Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.SimpleTypeObjectGenerator.htm">
+      <HelpTOCNode Title="ObjectGenerator.SimpleTypeObjectGenerator Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.SimpleTypeObjectGenerator.htm" />
+      <HelpTOCNode Id="565c48d6-1ac7-46f5-96d9-921aafa1b97e" Title="ObjectGenerator.SimpleTypeObjectGenerator Fields" Url="html/Fields.T-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.SimpleTypeObjectGenerator.htm">
+        <HelpTOCNode Title="_index Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.SimpleTypeObjectGenerator._index.htm" />
+        <HelpTOCNode Title="DefaultGenerators Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.SimpleTypeObjectGenerator.DefaultGenerators.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ObjectGenerator.SimpleTypeObjectGenerator Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ObjectGenerator.SimpleTypeObjectGenerator.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="SampleDirection Enumeration" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.SampleDirection.htm" />
+    <HelpTOCNode Id="cc7fd039-d659-41a9-8841-dc51fdff291a" Title="TextSample Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.TextSample.htm">
+      <HelpTOCNode Title="TextSample Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.TextSample.htm" />
+      <HelpTOCNode Title="TextSample Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.TextSample.-ctor.htm" />
+      <HelpTOCNode Id="25b752fe-e740-491d-9d8f-e7b644a23d6f" Title="TextSample Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.TextSample.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.TextSample.Equals.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.TextSample.GetHashCode.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.TextSample.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a2b1db6a-0fae-4f64-814c-1eca2baad643" Title="TextSample Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.TextSample.htm">
+        <HelpTOCNode Title="Text Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.TextSample.Text.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e1ff596d-933f-4908-9711-30ccb94cfe8f" Title="XmlDocumentationProvider Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.htm">
+      <HelpTOCNode Title="XmlDocumentationProvider Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.htm" />
+      <HelpTOCNode Title="XmlDocumentationProvider Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.-ctor.htm" />
+      <HelpTOCNode Id="a64d3e4b-7d5d-47f8-a400-6604966092c1" Title="XmlDocumentationProvider Fields" Url="html/Fields.T-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.htm">
+        <HelpTOCNode Title="_documentNavigator Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider._documentNavigator.htm" />
+        <HelpTOCNode Title="FieldExpression Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.FieldExpression.htm" />
+        <HelpTOCNode Title="MethodExpression Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.MethodExpression.htm" />
+        <HelpTOCNode Title="ParameterExpression Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.ParameterExpression.htm" />
+        <HelpTOCNode Title="PropertyExpression Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.PropertyExpression.htm" />
+        <HelpTOCNode Title="TypeExpression Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.TypeExpression.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c961f7d2-656b-4032-a0b0-2e23f180e1ee" Title="XmlDocumentationProvider Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.htm">
+        <HelpTOCNode Id="6b3cdc52-1c2e-45d1-b030-1c425af432b1" Title="GetDocumentation Method " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation.htm">
+          <HelpTOCNode Title="GetDocumentation Method (HttpControllerDescriptor)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation.htm" />
+          <HelpTOCNode Title="GetDocumentation Method (HttpActionDescriptor)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation_1.htm" />
+          <HelpTOCNode Title="GetDocumentation Method (HttpParameterDescriptor)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation_2.htm" />
+          <HelpTOCNode Title="GetDocumentation Method (MemberInfo)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation_3.htm" />
+          <HelpTOCNode Title="GetDocumentation Method (Type)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation_4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetMemberName Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetMemberName.htm" />
+        <HelpTOCNode Title="GetMethodNode Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetMethodNode.htm" />
+        <HelpTOCNode Title="GetResponseDocumentation Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetResponseDocumentation.htm" />
+        <HelpTOCNode Title="GetTagValue Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetTagValue.htm" />
+        <HelpTOCNode Title="GetTypeName Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetTypeName.htm" />
+        <HelpTOCNode Title="GetTypeNode Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.XmlDocumentationProvider.GetTypeNode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="ced9c4c5-aa38-4227-9d69-fdf6425c151c" Title="ModernDataServices.MVC.Host.Areas.HelpPage.Controllers Namespace" Url="html/N-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.htm">
+    <HelpTOCNode Id="85679292-c373-487f-b870-ab1bb367c983" Title="HelpController Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.htm">
+      <HelpTOCNode Title="HelpController Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.htm" />
+      <HelpTOCNode Id="739383cd-9041-414e-a4e2-e8ee52b12d6e" Title="HelpController Constructor " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.-ctor.htm">
+        <HelpTOCNode Title="HelpController Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.-ctor.htm" />
+        <HelpTOCNode Title="HelpController Constructor (HttpConfiguration)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="57c574d9-1ec4-493d-9b20-0a8666f5f032" Title="HelpController Fields" Url="html/Fields.T-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.htm">
+        <HelpTOCNode Title="ErrorViewName Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.ErrorViewName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f6b12e28-93b2-425d-8a96-7bba87e53a91" Title="HelpController Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.htm">
+        <HelpTOCNode Title="Api Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.Api.htm" />
+        <HelpTOCNode Title="Index Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.Index.htm" />
+        <HelpTOCNode Title="ResourceModel Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.ResourceModel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f40a1c80-0f61-4c1a-bad2-a662d774b7a5" Title="HelpController Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.htm">
+        <HelpTOCNode Title="Configuration Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Controllers.HelpController.Configuration.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c14aba40-c36c-4b24-b3fd-df0933a4a6ee" Title="ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions Namespace" Url="html/N-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.htm">
+    <HelpTOCNode Id="e294dea1-e063-4c46-9d53-741564090f9b" Title="CollectionModelDescription Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.CollectionModelDescription.htm">
+      <HelpTOCNode Title="CollectionModelDescription Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.CollectionModelDescription.htm" />
+      <HelpTOCNode Title="CollectionModelDescription Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.CollectionModelDescription.htm" />
+      <HelpTOCNode Id="7f2eedbc-6979-424f-a5e8-438332c487bc" Title="CollectionModelDescription Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.CollectionModelDescription.htm">
+        <HelpTOCNode Title="ElementDescription Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.CollectionModelDescription.ElementDescription.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6783445a-7aba-43d5-a4c6-420c05b4022c" Title="ComplexTypeModelDescription Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.htm">
+      <HelpTOCNode Title="ComplexTypeModelDescription Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.htm" />
+      <HelpTOCNode Title="ComplexTypeModelDescription Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.-ctor.htm" />
+      <HelpTOCNode Title="ComplexTypeModelDescription Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.htm" />
+      <HelpTOCNode Id="22ee6334-9bab-4d66-9bc7-ee5d00e479eb" Title="ComplexTypeModelDescription Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.htm">
+        <HelpTOCNode Title="Properties Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.Properties.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c97e27df-b505-47b7-adf2-b7845d18f711" Title="DictionaryModelDescription Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.DictionaryModelDescription.htm">
+      <HelpTOCNode Title="DictionaryModelDescription Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.DictionaryModelDescription.htm" />
+      <HelpTOCNode Title="DictionaryModelDescription Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.DictionaryModelDescription.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c1079a9f-675a-421f-b55c-8e05c7c0d9f7" Title="EnumTypeModelDescription Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.htm">
+      <HelpTOCNode Title="EnumTypeModelDescription Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.htm" />
+      <HelpTOCNode Title="EnumTypeModelDescription Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.-ctor.htm" />
+      <HelpTOCNode Title="EnumTypeModelDescription Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.htm" />
+      <HelpTOCNode Id="00e82743-dd6c-45bc-bb84-a484ca7cf82b" Title="EnumTypeModelDescription Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.htm">
+        <HelpTOCNode Title="Values Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.Values.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ea72c765-77bf-4179-8a52-0981b75f8ebb" Title="EnumValueDescription Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumValueDescription.htm">
+      <HelpTOCNode Title="EnumValueDescription Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumValueDescription.htm" />
+      <HelpTOCNode Title="EnumValueDescription Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumValueDescription.htm" />
+      <HelpTOCNode Id="cc7b189b-5fbc-455d-ba59-99998636fa3b" Title="EnumValueDescription Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumValueDescription.htm">
+        <HelpTOCNode Title="Documentation Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Documentation.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Name.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="136c11dc-f431-43dd-ad8d-a29262c6ded8" Title="IModelDocumentationProvider Interface" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.htm">
+      <HelpTOCNode Title="IModelDocumentationProvider Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.htm" />
+      <HelpTOCNode Id="09fbe6da-1003-4f6a-adf7-e90b43ae48be" Title="IModelDocumentationProvider Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.htm">
+        <HelpTOCNode Id="a83cff0c-b3a8-4cd7-93c9-d230526b33d0" Title="GetDocumentation Method " Url="html/Overload-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation.htm">
+          <HelpTOCNode Title="GetDocumentation Method (MemberInfo)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation.htm" />
+          <HelpTOCNode Title="GetDocumentation Method (Type)" Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e48b8099-9abc-4448-8811-401fdc824d5d" Title="KeyValuePairModelDescription Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.htm">
+      <HelpTOCNode Title="KeyValuePairModelDescription Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.htm" />
+      <HelpTOCNode Title="KeyValuePairModelDescription Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.htm" />
+      <HelpTOCNode Id="3d127915-8877-4af6-b330-e200ea6441ac" Title="KeyValuePairModelDescription Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.htm">
+        <HelpTOCNode Title="KeyModelDescription Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.KeyModelDescription.htm" />
+        <HelpTOCNode Title="ValueModelDescription Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.ValueModelDescription.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="719f0fa2-fa40-4ea6-90a0-ab9b6eb02cb9" Title="ModelDescription Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescription.htm">
+      <HelpTOCNode Title="ModelDescription Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescription.htm" />
+      <HelpTOCNode Title="ModelDescription Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescription.htm" />
+      <HelpTOCNode Id="205e0aab-5464-4a44-9883-5eae288df34b" Title="ModelDescription Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescription.htm">
+        <HelpTOCNode Title="Documentation Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescription.Documentation.htm" />
+        <HelpTOCNode Title="ModelType Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescription.ModelType.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescription.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fd62e42b-d20b-4728-842e-f29568ee6436" Title="ModelDescriptionGenerator Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.htm">
+      <HelpTOCNode Title="ModelDescriptionGenerator Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.htm" />
+      <HelpTOCNode Id="a0d5e708-1851-4b1a-ad02-703196748bce" Title="ModelDescriptionGenerator Fields" Url="html/Fields.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.htm">
+        <HelpTOCNode Title="AnnotationTextGenerator Field" Url="html/F-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.AnnotationTextGenerator.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ModelDescriptionGenerator Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="47aa75a5-b759-4c5b-8a18-eeaf4246e52e" Title="ModelNameAttribute Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.htm">
+      <HelpTOCNode Title="ModelNameAttribute Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.htm" />
+      <HelpTOCNode Title="ModelNameAttribute Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.-ctor.htm" />
+      <HelpTOCNode Title="ModelNameAttribute Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.htm" />
+      <HelpTOCNode Id="9b6b4004-bb3f-4521-8887-098a8947ef06" Title="ModelNameAttribute Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5d76f781-99e3-43c6-8bf5-76e8175ca4c6" Title="ModelNameHelper Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameHelper.htm">
+      <HelpTOCNode Title="ModelNameHelper Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameHelper.htm" />
+      <HelpTOCNode Id="b06b45fd-1731-46f6-9f59-90a4684fda76" Title="ModelNameHelper Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameHelper.htm">
+        <HelpTOCNode Title="GetModelName Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ModelNameHelper.GetModelName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5fe96a6f-3040-4a26-ae99-1c09483bebaa" Title="ParameterAnnotation Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.htm">
+      <HelpTOCNode Title="ParameterAnnotation Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.htm" />
+      <HelpTOCNode Title="ParameterAnnotation Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.htm" />
+      <HelpTOCNode Id="0d58ba37-4960-476d-90b7-20fe52c42cda" Title="ParameterAnnotation Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.htm">
+        <HelpTOCNode Title="AnnotationAttribute Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.AnnotationAttribute.htm" />
+        <HelpTOCNode Title="Documentation Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.Documentation.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ccbcab46-a841-48aa-9065-89b1cbf9a29a" Title="ParameterDescription Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterDescription.htm">
+      <HelpTOCNode Title="ParameterDescription Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterDescription.htm" />
+      <HelpTOCNode Title="ParameterDescription Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterDescription.-ctor.htm" />
+      <HelpTOCNode Title="ParameterDescription Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterDescription.htm" />
+      <HelpTOCNode Id="37d5526f-d8b0-4a01-b553-8ae37e21363f" Title="ParameterDescription Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterDescription.htm">
+        <HelpTOCNode Title="Annotations Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterDescription.Annotations.htm" />
+        <HelpTOCNode Title="Documentation Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterDescription.Documentation.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterDescription.Name.htm" />
+        <HelpTOCNode Title="TypeDescription Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.ParameterDescription.TypeDescription.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="03733254-c25a-4ab3-b5ee-7a21de091585" Title="SimpleTypeModelDescription Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.SimpleTypeModelDescription.htm">
+      <HelpTOCNode Title="SimpleTypeModelDescription Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.SimpleTypeModelDescription.htm" />
+      <HelpTOCNode Title="SimpleTypeModelDescription Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.ModelDescriptions.SimpleTypeModelDescription.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="47847bb2-ab61-4140-a1ba-75ecc8c1dc82" Title="ModernDataServices.MVC.Host.Areas.HelpPage.Models Namespace" Url="html/N-ModernDataServices.MVC.Host.Areas.HelpPage.Models.htm">
+    <HelpTOCNode Id="cab76bfa-7487-4e69-82c4-c331129a2db8" Title="HelpPageApiModel Class" Url="html/T-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.htm">
+      <HelpTOCNode Title="HelpPageApiModel Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.htm" />
+      <HelpTOCNode Title="HelpPageApiModel Constructor " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.-ctor.htm" />
+      <HelpTOCNode Id="12e2085c-f694-4d4d-8c04-f8ebc042890a" Title="HelpPageApiModel Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.htm">
+        <HelpTOCNode Title="GetParameterDescriptions Method " Url="html/M-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.GetParameterDescriptions.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5b9bd3f6-5079-4add-813b-1c250aceca51" Title="HelpPageApiModel Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.htm">
+        <HelpTOCNode Title="ApiDescription Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription.htm" />
+        <HelpTOCNode Title="ErrorMessages Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.ErrorMessages.htm" />
+        <HelpTOCNode Title="RequestBodyParameters Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.RequestBodyParameters.htm" />
+        <HelpTOCNode Title="RequestDocumentation Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.RequestDocumentation.htm" />
+        <HelpTOCNode Title="RequestModelDescription Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.RequestModelDescription.htm" />
+        <HelpTOCNode Title="ResourceDescription Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.ResourceDescription.htm" />
+        <HelpTOCNode Title="ResourceProperties Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.ResourceProperties.htm" />
+        <HelpTOCNode Title="SampleRequests Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.SampleRequests.htm" />
+        <HelpTOCNode Title="SampleResponses Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.SampleResponses.htm" />
+        <HelpTOCNode Title="UriParameters Property " Url="html/P-ModernDataServices.MVC.Host.Areas.HelpPage.Models.HelpPageApiModel.UriParameters.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="421e7991-ac84-4ac0-8680-fafd2b8bc17c" Title="ModernDataServices.MVC.Host.Controllers Namespace" Url="html/N-ModernDataServices.MVC.Host.Controllers.htm">
+    <HelpTOCNode Id="b87f5f26-c771-4d22-8707-c24c2f4f62e5" Title="HomeController Class" Url="html/T-ModernDataServices.MVC.Host.Controllers.HomeController.htm">
+      <HelpTOCNode Title="HomeController Members" Url="html/AllMembers.T-ModernDataServices.MVC.Host.Controllers.HomeController.htm" />
+      <HelpTOCNode Id="d7be1b97-cf31-4cf1-ba61-9ce0088ba069" Title="HomeController Methods" Url="html/Methods.T-ModernDataServices.MVC.Host.Controllers.HomeController.htm">
+        <HelpTOCNode Title="Index Method " Url="html/M-ModernDataServices.MVC.Host.Controllers.HomeController.Index.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="HomeController Properties" Url="html/Properties.T-ModernDataServices.MVC.Host.Controllers.HomeController.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="aefe3b1f-7174-454b-a7c3-284ba66364b0" Title="ModernDataServices.Service.Host Namespace" Url="html/N-ModernDataServices.Service.Host.htm">
+    <HelpTOCNode Id="910dcbda-d6c4-4fab-b97e-537fd30c261b" Title="Program Class" Url="html/T-ModernDataServices.Service.Host.Program.htm">
+      <HelpTOCNode Title="Program Members" Url="html/AllMembers.T-ModernDataServices.Service.Host.Program.htm" />
+      <HelpTOCNode Id="3f14b0d5-1ad7-47da-bac5-445978d7a86a" Title="Program Methods" Url="html/Methods.T-ModernDataServices.Service.Host.Program.htm">
+        <HelpTOCNode Title="ExceptionHandler Method " Url="html/M-ModernDataServices.Service.Host.Program.ExceptionHandler.htm" />
+        <HelpTOCNode Title="Main Method " Url="html/M-ModernDataServices.Service.Host.Program.Main.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="427c6462-0634-4137-95d5-ad8727a85caf" Title="ServiceApiApp Class" Url="html/T-ModernDataServices.Service.Host.ServiceApiApp.htm">
+      <HelpTOCNode Title="ServiceApiApp Members" Url="html/AllMembers.T-ModernDataServices.Service.Host.ServiceApiApp.htm" />
+      <HelpTOCNode Id="a1d4e01b-3581-491e-9bb6-ff5d20d37506" Title="ServiceApiApp Fields" Url="html/Fields.T-ModernDataServices.Service.Host.ServiceApiApp.htm">
+        <HelpTOCNode Title="_logger Field" Url="html/F-ModernDataServices.Service.Host.ServiceApiApp._logger.htm" />
+        <HelpTOCNode Title="WebApplication Field" Url="html/F-ModernDataServices.Service.Host.ServiceApiApp.WebApplication.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8a690cea-464e-4f66-b77f-32d3a2cc11a9" Title="ServiceApiApp Methods" Url="html/Methods.T-ModernDataServices.Service.Host.ServiceApiApp.htm">
+        <HelpTOCNode Title="Continue Method " Url="html/M-ModernDataServices.Service.Host.ServiceApiApp.Continue.htm" />
+        <HelpTOCNode Title="Pause Method " Url="html/M-ModernDataServices.Service.Host.ServiceApiApp.Pause.htm" />
+        <HelpTOCNode Title="Shutdown Method " Url="html/M-ModernDataServices.Service.Host.ServiceApiApp.Shutdown.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/M-ModernDataServices.Service.Host.ServiceApiApp.Start.htm" />
+        <HelpTOCNode Title="Stop Method " Url="html/M-ModernDataServices.Service.Host.ServiceApiApp.Stop.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

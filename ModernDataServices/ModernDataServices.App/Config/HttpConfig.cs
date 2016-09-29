@@ -61,8 +61,7 @@ namespace ModernDataServices.App.Config
             app.UseStageMarker(PipelineStage.MapHandler);
 
             config.CacheOutputConfiguration().RegisterCacheOutputProvider(() => new MemoryCacheDefault());
-            //config.CacheOutputConfiguration().RegisterCacheOutputProvider(() => new LoggingCacheOutputProviderDecorator(new MemoryCacheDefault()));
-
+           
             app.UseWebApi(config);
         }
     }

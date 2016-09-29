@@ -17,34 +17,34 @@ namespace ModernDataServices.App.Models.Extensions
             LogManager.GetCurrentClassLogger().Debug("Start To Person Resource");
             return new PersonResource
             {
-                PersonId = person.PersonId,
-                FirstName = person.FirstName,
-                LastName = person.LastName,
-                BirthDate = person.BirthDate,
+                PersonId       = person.PersonId,
+                FirstName      = person.FirstName,
+                LastName       = person.LastName,
+                BirthDate      = person.BirthDate,
 
-                Addresses = person.Addresses.ToResources(url, person.PersonId),
+                Addresses      = person.Addresses.ToResources(url, person.PersonId),
                 EmailAddresses = person.EmailAddresses.ToResources(url, person.PersonId),
                 
-                Phones = person.Phones.ToResources(url, person.PersonId),
-                Links = new List<Link>
+                Phones         = person.Phones.ToResources(url, person.PersonId),
+                Links          = new List<Link>
                 {
                     new Link
                     {
-                        Name = Constants.RouteNames.GetPersonById,
+                        Name   = Constants.RouteNames.GetPersonById,
                         Method = "HttpGet",
-                        Href = url.Link(Constants.RouteNames.GetPersonById, person.PersonId)
+                        Href   = url.Link(Constants.RouteNames.GetPersonById, person.PersonId)
                     },
                     new Link
                     {
-                        Name = Constants.RouteNames.EditPerson,
+                        Name   = Constants.RouteNames.EditPerson,
                         Method = "HttpPut",
-                        Href = url.Link(Constants.RouteNames.EditPerson, person.PersonId)
+                        Href   = url.Link(Constants.RouteNames.EditPerson, person.PersonId)
                     },
                     new Link
                     {
-                        Name = Constants.RouteNames.DeletePerson,
+                        Name   = Constants.RouteNames.DeletePerson,
                         Method = "HttpDelete",
-                        Href = url.Link(Constants.RouteNames.DeletePerson, person.PersonId)
+                        Href   = url.Link(Constants.RouteNames.DeletePerson, person.PersonId)
                     },
                 }
             };

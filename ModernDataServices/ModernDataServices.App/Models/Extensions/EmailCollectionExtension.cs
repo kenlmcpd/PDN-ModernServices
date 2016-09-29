@@ -38,15 +38,15 @@ namespace ModernDataServices.App.Models.Extensions
                 {
                     new Link
                     {
-                        Name = Constants.RouteNames.GetEmailCollection,
+                        Name   = Constants.RouteNames.GetEmailCollection,
                         Method = "HttpGet",
-                        Href = url.Link(Constants.RouteNames.GetEmailCollection, id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}"
+                        Href   = url.Link(Constants.RouteNames.GetEmailCollection, id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}"
                     },
                     new Link
                     {
-                        Name = Constants.RouteNames.CreateEmail,
+                        Name   = Constants.RouteNames.CreateEmail,
                         Method = "HttpPost",
-                        Href = url.Link(Constants.RouteNames.CreateEmail, id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}"
+                        Href   = url.Link(Constants.RouteNames.CreateEmail, id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}"
                     }
                 }
             };

@@ -17,10 +17,14 @@ using WebApi.OutputCache.V2;
 
 namespace ModernDataServices.App.Controllers
 {
+    /// <summary>
+    /// The Address Controller
+    /// </summary>
+    /// <seealso cref="System.Web.Http.ApiController" />
     [ResourceAuthorize("Admin User")]
     [Time]
     [AutoInvalidateCacheOutput]
-    [CacheOutput(ClientTimeSpan = Constants.CacheClientTimeSpan, ServerTimeSpan = Constants.CacheServerTimeSpan)]
+    [CacheOutput(ClientTimeSpan = Constants.CacheSettings.CacheClientTimeSpan, ServerTimeSpan = Constants.CacheSettings.CacheServerTimeSpan)]
     [System.Web.Http.RoutePrefix(Constants.Routes.AddressPrefix)]
     public class AddressController : ApiController
     {
@@ -34,11 +38,19 @@ namespace ModernDataServices.App.Controllers
         /// </summary>
         protected readonly DalBase<Address> DalBase;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AddressController"/> class.
+        /// </summary>
         public AddressController()
         {
             DalBase = new DalBase<Address>(new ApplicationContext());
         }
 
+        /// <summary>
+        /// Gets the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <returns></returns>
         [HttpGet, Route("", Name = Constants.RouteNames.GetAddressCollection)]
         public IHttpActionResult Get([FromUri] Guid personid)
         {
@@ -68,6 +80,12 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
+        /// <summary>
+        /// Gets the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <param name="id">The identifier.</param>
+        /// <returns></returns>
         [HttpGet, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.GetAddressById)]
         public IHttpActionResult Get([FromUri] Guid personid, [FromUri] int id)
         {
@@ -99,6 +117,12 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
+        /// <summary>
+        /// Posts the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <param name="address">The address.</param>
+        /// <returns></returns>
         [HttpPost, Route("", Name = Constants.RouteNames.CreateAddress)]
         public IHttpActionResult Post([FromUri] Guid personid, [FromBody]AddressResource address)
         {
@@ -137,6 +161,13 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
+        /// <summary>
+        /// Puts the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <param name="id">The identifier.</param>
+        /// <param name="address">The address.</param>
+        /// <returns></returns>
         [HttpPut, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.EditAddress)]
         public IHttpActionResult Put([FromUri] Guid personid, int id, [FromBody]AddressResource address)
         {
@@ -180,6 +211,12 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
+        /// <summary>
+        /// Deletes the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <param name="id">The identifier.</param>
+        /// <returns></returns>
         [HttpDelete, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.DeleteAddress)]
         public HttpResponseMessage Delete([FromUri] Guid personid, int id)
         {

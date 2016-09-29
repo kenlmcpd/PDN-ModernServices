@@ -14,7 +14,6 @@ namespace ModernDataServices.App.Config
     /// </summary>
     public static class HangfireConfig
     {
-
         /// <summary>
         /// Configures the application to utilize Hangfire for the Owin application
         /// </summary>

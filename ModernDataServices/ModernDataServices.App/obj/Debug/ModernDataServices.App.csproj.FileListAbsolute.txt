@@ -109,3 +109,4 @@ D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.pdb
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.Data.Migrations.InitialCreate.resources
 D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.csproj.GenerateResource.Cache
+D:\Ken\Documents\GitHub\PDN-ModernServices\ModernDataServices\ModernDataServices.App\obj\Debug\ModernDataServices.App.csprojResolveAssemblyReference.cache

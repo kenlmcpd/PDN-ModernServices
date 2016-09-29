@@ -13,10 +13,14 @@ using WebApi.OutputCache.V2;
 
 namespace ModernDataServices.App.Controllers
 {
+    /// <summary>
+    /// The Person Controller
+    /// </summary>
+    /// <seealso cref="System.Web.Http.ApiController" />
     [ResourceAuthorize("Admin User")]
     [Time]
     [AutoInvalidateCacheOutput]
-    [CacheOutput(ClientTimeSpan = Constants.CacheClientTimeSpan, ServerTimeSpan = Constants.CacheServerTimeSpan)]
+    [CacheOutput(ClientTimeSpan = Constants.CacheSettings.CacheClientTimeSpan, ServerTimeSpan = Constants.CacheSettings.CacheServerTimeSpan)]
     [System.Web.Http.RoutePrefix(Constants.Routes.PersonPrefix)]
     public class PersonController : ApiController
     {
@@ -30,6 +34,9 @@ namespace ModernDataServices.App.Controllers
         /// </summary>
         protected readonly DalBase<Person> DalBase;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="PersonController"/> class.
+        /// </summary>
         public PersonController()
         {
             DalBase = new DalBase<Person>(new ApplicationContext());
@@ -139,6 +146,7 @@ namespace ModernDataServices.App.Controllers
         /// </summary>
         /// <param name="id">The identifier.</param>
         /// <returns></returns>
+        [ResourceAuthorize("Admin")]
         [HttpDelete, Route(Constants.Routes.GuidIdRoute, Name = Constants.RouteNames.DeletePerson)]
         public HttpResponseMessage Delete([FromUri] Guid id)
         {

@@ -12,7 +12,14 @@ namespace ModernDataServices.App.Config
     /// </summary>
     public class OwinHostedConfig
     {
+        /// <summary>
+        /// The application information
+        /// </summary>
         internal static OwinApplicationInformation AppInfo;
+
+        /// <summary>
+        /// The _development
+        /// </summary>
         private readonly bool _development;
 
         /// <summary>

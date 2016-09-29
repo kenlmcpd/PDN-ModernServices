@@ -17,10 +17,14 @@ using WebApi.OutputCache.V2;
 
 namespace ModernDataServices.App.Controllers
 {
-    [ResourceAuthorize("Geek Foo")]
+    /// <summary>
+    /// The Email Controller
+    /// </summary>
+    /// <seealso cref="System.Web.Http.ApiController" />
+    [ResourceAuthorize("Admin User")]
     [Time]
     [AutoInvalidateCacheOutput]
-    [CacheOutput(ClientTimeSpan = Constants.CacheClientTimeSpan, ServerTimeSpan = Constants.CacheServerTimeSpan)]
+    [CacheOutput(ClientTimeSpan = Constants.CacheSettings.CacheClientTimeSpan, ServerTimeSpan = Constants.CacheSettings.CacheServerTimeSpan)]
     [System.Web.Http.RoutePrefix(Constants.Routes.EmailPrefix)]
     public class EmailController : ApiController
     {
@@ -34,11 +38,19 @@ namespace ModernDataServices.App.Controllers
         /// </summary>
         protected readonly DalBase<Email> DalBase;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="EmailController"/> class.
+        /// </summary>
         public EmailController()
         {
             DalBase = new DalBase<Email>(new ApplicationContext());
         }
 
+        /// <summary>
+        /// Gets the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <returns></returns>
         [HttpGet, Route("", Name = Constants.RouteNames.GetEmailCollection)]
         public IHttpActionResult Get([FromUri] Guid personid)
         {
@@ -68,6 +80,12 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
+        /// <summary>
+        /// Gets the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <param name="id">The identifier.</param>
+        /// <returns></returns>
         [HttpGet, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.GetEmailById)]
         public IHttpActionResult Get([FromUri] Guid personid, [FromUri] int id)
         {
@@ -99,6 +117,12 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
+        /// <summary>
+        /// Posts the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <param name="email">The email.</param>
+        /// <returns></returns>
         [HttpPost, Route("", Name = Constants.RouteNames.CreateEmail)]
         public IHttpActionResult Post([FromUri] Guid personid, [FromBody]EmailResource email)
         {
@@ -133,6 +157,13 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
+        /// <summary>
+        /// Puts the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <param name="id">The identifier.</param>
+        /// <param name="email">The email.</param>
+        /// <returns></returns>
         [HttpPut, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.EditEmail)]
         public IHttpActionResult Put([FromUri] Guid personid, int id, [FromBody]EmailResource email)
         {
@@ -172,6 +203,12 @@ namespace ModernDataServices.App.Controllers
             }
         }
 
+        /// <summary>
+        /// Deletes the specified personid.
+        /// </summary>
+        /// <param name="personid">The personid.</param>
+        /// <param name="id">The identifier.</param>
+        /// <returns></returns>
         [HttpDelete, Route(Constants.Routes.IntIdRoute, Name = Constants.RouteNames.DeleteEmail)]
         public HttpResponseMessage Delete([FromUri] Guid personid, int id)
         {

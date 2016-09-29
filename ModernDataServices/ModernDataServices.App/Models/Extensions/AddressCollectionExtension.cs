@@ -38,15 +38,15 @@ namespace ModernDataServices.App.Models.Extensions
                 {
                     new Link
                     {
-                        Name = Constants.RouteNames.GetAddressCollection,
+                        Name   = Constants.RouteNames.GetAddressCollection,
                         Method = "HttpGet",
-                        Href = url.Link(Constants.RouteNames.GetAddressCollection, id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}"
+                        Href   = url.Link(Constants.RouteNames.GetAddressCollection, id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}"
                     },
                     new Link
                     {
-                        Name = Constants.RouteNames.CreateAddress,
+                        Name   = Constants.RouteNames.CreateAddress,
                         Method = "HttpPost",
-                        Href = url.Link(Constants.RouteNames.CreateAddress, id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}"
+                        Href   = url.Link(Constants.RouteNames.CreateAddress, id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}"
                     }
                 }
             };

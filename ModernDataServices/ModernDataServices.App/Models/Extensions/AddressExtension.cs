@@ -17,31 +17,31 @@ namespace ModernDataServices.App.Models.Extensions
            LogManager.GetCurrentClassLogger().Debug("Start To Address Resource");
             return new AddressResource
             {
-                Id = address.Id,
-                Line1 = address.Line1,
-                Line2 = address.Line2,
-                City = address.City,
-                State = address.State,
+                Id      = address.Id,
+                Line1   = address.Line1,
+                Line2   = address.Line2,
+                City    = address.City,
+                State   = address.State,
                 ZipCode = address.ZipCode,
-                Links = new List<Link>
+                Links   = new List<Link>
                 {
                     new Link
                     {
-                        Name = Constants.RouteNames.GetAddressById,
+                        Name   = Constants.RouteNames.GetAddressById,
                         Method = "HttpGet",
-                        Href = url.Link(Constants.RouteNames.GetAddressById, address.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}/{address.Id}"
+                        Href   = url.Link(Constants.RouteNames.GetAddressById, address.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}/{address.Id}"
                     },
                     new Link
                     {
-                        Name = Constants.RouteNames.EditAddress,
+                        Name   = Constants.RouteNames.EditAddress,
                         Method = "HttpPut",
-                        Href = url.Link(Constants.RouteNames.EditAddress, address.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}/{address.Id}"
+                        Href   = url.Link(Constants.RouteNames.EditAddress, address.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}/{address.Id}"
                     },
                     new Link
                     {
-                        Name = Constants.RouteNames.DeleteAddress,
+                        Name   = Constants.RouteNames.DeleteAddress,
                         Method = "HttpDelete",
-                        Href = url.Link(Constants.RouteNames.DeleteAddress, address.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}/{address.Id}"
+                        Href   = url.Link(Constants.RouteNames.DeleteAddress, address.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.AddressRoute}/{address.Id}"
                     },
                 }
             };

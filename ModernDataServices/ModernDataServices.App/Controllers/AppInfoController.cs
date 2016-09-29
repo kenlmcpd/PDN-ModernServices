@@ -12,7 +12,10 @@ namespace ModernDataServices.App.Controllers
     [RoutePrefix(Constants.Routes.ApiRoutePrefix)]
     public class AppInfoController : ApiController
     {
-
+        /// <summary>
+        /// Versions this instance.
+        /// </summary>
+        /// <returns></returns>
         [AllowAnonymous]
         [HttpGet, Route(Constants.Routes.VersionRoute, Name = Constants.RouteNames.GetVersion)]
         public string Version()
@@ -20,7 +23,10 @@ namespace ModernDataServices.App.Controllers
             return JsonConvert.SerializeObject(System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString());
         }
 
-
+        /// <summary>
+        /// Ups the time.
+        /// </summary>
+        /// <returns></returns>
         [AllowAnonymous]
         [HttpGet, Route(Constants.Routes.UptimeRoute, Name = Constants.RouteNames.GetUptime)]
         public string UpTime()

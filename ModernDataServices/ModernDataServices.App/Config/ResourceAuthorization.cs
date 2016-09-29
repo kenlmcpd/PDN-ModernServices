@@ -30,28 +30,42 @@ namespace ModernDataServices.App.Config
 
             try
             {
+                // This is the string values from the attribute
                 var approvedroles = context.Action.First(x => x.Type == Constants.ResourseClaimsTypes.Name).Value;
-                var userid = context.Principal.Claims.FirstOrDefault(x => x.Type == Constants.ResourseClaimsTypes.UserId);
+
+                // This is the controller and value being passed to the controller
                 var id = context.Resource.FirstOrDefault(x => x.Type == Constants.ResourseClaimsTypes.Id);
 
+                // The Claims as sent over from Identity Server
+                var claims = context.Principal.Claims;
+
+                // This is the User Guid from Identity Server
+                var userid = claims.FirstOrDefault(x => x.Type == Constants.ResourseClaimsTypes.UserId);
+
+                // The roles stored in the claim
+                var roles = claims.Where(x => x.Type == Constants.ResourseClaimsTypes.Roles);
+
+                // Something is wrong so kick the user out
                 if (id == null || userid == null)
                 {
                     return Nok();
                 }
 
-
-                if (approvedroles.Contains(Constants.Roles.Admin))
+                // method or controller allows Admin and user has admin role
+                if (approvedroles.Contains(Constants.Roles.Admin) && roles.Any(x => x.Value == "Admin") )
                 {
                     logger.Trace("Admin updating Profile");
                     return Ok();
                 }
 
-                if (approvedroles.Contains(Constants.Roles.User) && id.Value == userid.Value)
+                // method or controller allows User, User ID matches the request and User has user role
+                if (approvedroles.Contains(Constants.Roles.User) && id.Value == userid.Value && roles.Any(x => x.Value == "User"))
                 {
                     logger.Trace("User updating Own Profile");
                     return Ok();
                 }
 
+                // no match - keick the user out
                 logger.Trace("Cannot verify User Role");
                 return  Nok();
             }

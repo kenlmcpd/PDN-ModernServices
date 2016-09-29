@@ -17,27 +17,27 @@ namespace ModernDataServices.App.Models.Extensions
             LogManager.GetCurrentClassLogger().Debug("Start To Email Resource");
             return new EmailResource
             {
-                Id = email.Id,
+                Id      = email.Id,
                 Address = email.Address,
-                Links = new List<Link>
+                Links   = new List<Link>
                 {
                     new Link
                     {
-                        Name = Constants.RouteNames.GetEmailById,
+                        Name   = Constants.RouteNames.GetEmailById,
                         Method = "HttpGet",
-                        Href = url.Link(Constants.RouteNames.GetEmailById, email.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}/{email.Id}"
+                        Href   = url.Link(Constants.RouteNames.GetEmailById, email.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}/{email.Id}"
                     },
                     new Link
                     {
-                        Name = Constants.RouteNames.EditEmail,
+                        Name   = Constants.RouteNames.EditEmail,
                         Method = "HttpPut",
-                        Href = url.Link(Constants.RouteNames.EditEmail, email.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}/{email.Id}"
+                        Href   = url.Link(Constants.RouteNames.EditEmail, email.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}/{email.Id}"
                     },
                     new Link
                     {
-                        Name = Constants.RouteNames.DeleteEmail,
+                        Name   = Constants.RouteNames.DeleteEmail,
                         Method = "HttpDelete",
-                        Href = url.Link(Constants.RouteNames.DeleteEmail, email.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}/{email.Id}"
+                        Href   = url.Link(Constants.RouteNames.DeleteEmail, email.Id) ?? $"{url.Request.RequestUri}{Constants.Routes.EmailRoute}/{email.Id}"
                     },
                 }
             };
